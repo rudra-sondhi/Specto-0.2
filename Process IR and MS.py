@@ -12,6 +12,10 @@ MASS_SPECTRUM = 'mass spectrum'
 UNITS_CM = '1/cm'
 MASS = 'mass'
 
+min_ir = 399
+max_ir = 4001
+step_ir = 3.25
+
 def read_jdx(filename):
     """Reads a JCAMP-DX file and returns its data with the filename included."""
     try:
@@ -47,6 +51,7 @@ def array_and_units(mol_dict, ir_or_mass):
     y_array = np.array(mol_dict.get('y', []))
     x_units = mol_dict.get('xunits', DEFAULT_VALUE).lower()
     y_units = mol_dict.get('yunits', DEFAULT_VALUE).lower()
+    y_factor = np.array(mol_dict.get('yfactor', 1))  # Use 1 as default if yfactor is not provided
 
 
     if x_units == UNITS_CM:
@@ -56,8 +61,15 @@ def array_and_units(mol_dict, ir_or_mass):
     else:
         print(x_units,y_units)
         return False, None
+    
 
     output_y = y_array if y_units == ABSORBANCE else None
+
+    if output_y is not None:
+        y_scaled = y_array * y_factor    
+        percent_transmittance = 10**(2 - y_scaled)
+        output_y = np.divide(percent_transmittance, 100)
+
     return output_x, output_y
 
 def process_files(config_path):
@@ -66,32 +78,34 @@ def process_files(config_path):
         config = yaml.safe_load(file)
 
     for cas_id, value in config.items():
-        file_path = value['Path']
-        file_type = value['Type']
+        try:
+            file_path = value['Path']
+            file_type = value['Type']
 
-        mol_dict = read_jdx(file_path)
+            mol_dict = read_jdx(file_path)
 
+            if mol_dict:
+                ir_or_ms = check_ir_or_mass(mol_dict)
 
+                if ir_or_ms == INFRARED_SPECTRUM:
+                    spec_cond = check_spectra_prop(mol_dict)
+                    if spec_cond is False:
+                        continue
+                    array_x, array_y = array_and_units(mol_dict, ir_or_ms)
 
-        if mol_dict:
-            ir_or_ms = check_ir_or_mass(mol_dict)
-
-            if ir_or_ms == INFRARED_SPECTRUM:
-                spec_cond = check_spectra_prop(mol_dict)
-                if spec_cond is False:
-                    continue
-                array_x, array_y = array_and_units(mol_dict, ir_or_ms)
-                print(array_x, array_y)
-                if array_x is not False:
-                    print(f"Processed arrays successfully for {file_type}.")
+                    if array_x is not False:
+                        print(f"Processed arrays successfully for {file_type}.")
+                    else:
+                        print(f"Failed to process arrays due to incompatible units. CAS_ID: {cas_id}")
+                elif ir_or_ms == MASS_SPECTRUM or ir_or_ms == MASS:
+                    print(f"Data type for {cas_id} is mass spectrum.")
                 else:
-                    print(f"Failed to process arrays due to incompatible units. CAS_ID: {cas_id}")
-            elif ir_or_ms == MASS_SPECTRUM or ir_or_ms == MASS:
-                print(f"Data type for {cas_id} is mass spectrum.")
+                    print(f"Data type for {file_type} is neither infrared nor mass spectrum.")
             else:
-                print(f"Data type for {file_type} is neither infrared nor mass spectrum.")
-        else:
-            print(f"Failed to read data from file at {file_path}.")
+                print(f"Failed to read data from file at {file_path}.")
+        except Exception as e:
+            continue
+            
 
 if __name__ == "__main__":
     config_file_path = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/Super Cool Data/all_data_MS&IR_PATHS_2.yaml'  # Update this with the actual path
