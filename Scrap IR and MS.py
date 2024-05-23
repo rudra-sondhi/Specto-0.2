@@ -48,15 +48,23 @@ def scrap_data(cas_id, params, data_dir, save_iter, nist_url="https://webbook.ni
     Returns:
         dict: Data about the scraped file or False if not found
     '''
+
+    params['JCAMP'] = 'C' + cas_id
+    params['Units'] = 'SI'
+    #params['Type'] = 'IR-SPEC'  # Assuming this is fixed for simplicity, adjust as needed
+    params['Index'] = '0'  # Ensure index is always 0
+    #nist_url = f"https://webbook.nist.gov/cgi/cbook.cgi?ID={cas_id}&Units={params['Units']}&Type={params['Type']}&Index={params['Index']}"
+
     spectra_type_path = os.path.join(data_dir, params['Type'].lower())
     if not os.path.exists(spectra_type_path):
         os.makedirs(spectra_type_path)
 
-    params['JCAMP'] = 'C' + cas_id
     response = requests.get(nist_url, params=params)
 
     if response.text == '##TITLE=Spectrum not found.\n##END=\n':
+        logging.info(nist_url, params)
         return False
+    
 
     file_path = os.path.join(spectra_type_path, cas_id + '.jdx')
     with open(file_path, 'wb') as data:
@@ -65,6 +73,8 @@ def scrap_data(cas_id, params, data_dir, save_iter, nist_url="https://webbook.ni
     output_data = {cas_id: {'Type': params['Type'].lower(), 'Path': file_path}}
     if save_iter:
         save_all_to_yaml(data_dir, output_data, cas_id)
+        logging.info('Saving')
+
     else: 
         logging.info(f'Created {params["Type"].lower()} spectrum for CAS ID: {cas_id}')
         return output_data
@@ -156,14 +166,14 @@ def main():
 
     # Argument parsing
     parser = argparse.ArgumentParser()
-    parser.add_argument('--save_dir', default='/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/Super Cool Data', help="Directory path to store scrapped data")
+    parser.add_argument('--save_dir', default='/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/Super Cool Data_2', help="Directory path to store scrapped data")
     parser.add_argument('--cas_list', default='/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/all_data_SMARTS.yaml', help="File containing CAS number and formula of molecules")
     parser.add_argument('--scrap_IR', default=True, help="Whether to download IR or not")
     parser.add_argument('--scrap_MS', default=True, help="Whether to download MS or not")
     parser.add_argument('--scrap_InChi', default=True, help="Whether to download InChi or not")
 
     #Sports mode
-    parser.add_argument('--save_every_molecule', default=True, help="Whether the yaml saves at the end or after every mol.")
+    parser.add_argument('--save_every_molecule', default=False, help="Whether the yaml saves at the end or after every mol.")
 
     args = parser.parse_args()
 
@@ -179,10 +189,13 @@ def main():
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
     logger = set_logger(data_dir, 'scrap_for_MSIR.log')
+    logging.info('Booting')
+
 
     # Read CAS IDs from YAML
     cas_dict = read_yaml_cas_ids(args.cas_list)
 
+    logging.info('Booting 2')
 
     for cas_id in cas_dict:
         # Process data
@@ -211,7 +224,7 @@ def main():
 
         
         # Check if the counter is divisible by 500
-        if counter % 500 == 0:
+        if counter % 20 == 0:
             logging.info(f'Saving data for batch ending with CAS ID {cas_id}')
             save_all_to_yaml(data_dir, combined_data, "batch_" + str(counter))
             combined_data = {}  # Reset the dictionary after saving

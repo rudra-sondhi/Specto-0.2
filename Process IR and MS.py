@@ -1,6 +1,7 @@
 import yaml
 from jcamp import jcamp_read
 import numpy as np
+import pandas as pd
 
 # Constants for default values and units
 DEFAULT_VALUE = 'N/A'
@@ -15,6 +16,12 @@ MASS = 'mass'
 min_ir = 399
 max_ir = 4001
 step_ir = 3.25
+
+min_mass = 1 
+max_mass = 650
+step_mass = 1
+
+eps = 1e-4
 
 def read_jdx(filename):
     """Reads a JCAMP-DX file and returns its data with the filename included."""
@@ -51,7 +58,6 @@ def array_and_units(mol_dict, ir_or_mass):
     y_array = np.array(mol_dict.get('y', []))
     x_units = mol_dict.get('xunits', DEFAULT_VALUE).lower()
     y_units = mol_dict.get('yunits', DEFAULT_VALUE).lower()
-    y_factor = np.array(mol_dict.get('yfactor', 1))  # Use 1 as default if yfactor is not provided
 
 
     if x_units == UNITS_CM:
@@ -66,11 +72,21 @@ def array_and_units(mol_dict, ir_or_mass):
     output_y = y_array if y_units == ABSORBANCE else None
 
     if output_y is not None:
-        y_scaled = y_array * y_factor    
-        percent_transmittance = 10**(2 - y_scaled)
+        percent_transmittance = 10**(2 - output_y)
         output_y = np.divide(percent_transmittance, 100)
 
     return output_x, output_y
+
+def bin_ir(output_x, output_y, bins, cas_id):
+    """Bins the IR data and returns or saves the binned data."""
+    try:
+        binned_data = pd.DataFrame({'y_values': output_y}, index=output_x)
+        binned_data = binned_data.groupby(pd.cut(binned_data.index, bins)).mean()
+        binned_data.index = [(interval.left + interval.right) / 2 for interval in binned_data.index]
+        return binned_data
+    except Exception as e:
+        return None
+
 
 def process_files(config_path):
     """Reads YAML config and processes files according to their types."""
@@ -92,6 +108,8 @@ def process_files(config_path):
                     if spec_cond is False:
                         continue
                     array_x, array_y = array_and_units(mol_dict, ir_or_ms)
+                    ir_bins = np.arange(min_ir - eps, max_ir + eps, step_ir)
+                    output_bin = bin_ir(array_x, array_y, ir_bins, cas_id)
 
                     if array_x is not False:
                         print(f"Processed arrays successfully for {file_type}.")

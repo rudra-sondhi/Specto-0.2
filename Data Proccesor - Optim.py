@@ -456,7 +456,7 @@ def main():
 
         counter += 1
 
-        if counter % 10 == 0:
+        if counter % 500 == 0:
             logging.info(f'Saving data for batch ending with CAS ID {cas_id}')
             save_all_to_yaml(data_dir, combined_data, "batch_" + str(counter))
             combined_data = {}  # Reset the dictionary after saving
@@ -464,7 +464,7 @@ def main():
     if combined_data:
         logging.info('Saving remaining data...')
         save_all_to_yaml(data_dir, combined_data, "final_batch")
-        logging.info('Done Saving. Starting InCHi Scrap')
+        logging.info('Done Saving.')
     
 
 
