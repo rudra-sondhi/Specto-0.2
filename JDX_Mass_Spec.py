@@ -70,22 +70,4 @@ def plot_xy_pairs_no_axes(xy_pairs, cas_id, save_dir):
     return save_path
 
 
-"""
-# Example usage
-filename = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/Super Cool Data/mass/109-57-9.jdx'
-content = read_jdx(filename)
 
-if content:
-    npoints, title = extract_npoints_and_title(content)
-    xy_pairs = extract_xy_pairs(content)
-    
-    if xy_pairs is None:
-        print("Error: x or y data not found in the content.")
-    else:
-        if len(xy_pairs) != npoints:
-            print(f"Error: Number of extracted points ({len(xy_pairs)}) does not match NPOINTS ({npoints})")
-        else:
-            plot_xy_pairs(xy_pairs, title)
-            plot_xy_pairs_no_axes(xy_pairs)
-else:
-    print("Error: Failed to read content from the file.") """
