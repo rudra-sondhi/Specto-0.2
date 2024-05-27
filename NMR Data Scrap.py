@@ -30,7 +30,7 @@ def get_nmr_prediction(url, label, cas_id, smiles, output_folder):
         agree_button.click()
 
         # Wait for potential dynamic content loading
-        time.sleep(6)
+        time.sleep(5)
 
         # Locate the NMR data by the 'contenteditable' attribute within the 'ci-module-content' class
         nmr_results_container = driver.find_element(By.CSS_SELECTOR, '.ci-module-content [contenteditable="true"]')
@@ -41,14 +41,14 @@ def get_nmr_prediction(url, label, cas_id, smiles, output_folder):
             return None, None
 
         # Click the "Show fullscreen" button on the bottom right
-        WebDriverWait(driver, 6).until(
+        WebDriverWait(driver, 7).until(
             EC.element_to_be_clickable((By.XPATH, "//li[@title='Show fullscreen']"))
         )
         full_screen_button = driver.find_element(By.XPATH, "//li[@title='Show fullscreen']")
         full_screen_button.click()
 
         # Wait for the page to fully load after entering full screen
-        time.sleep(4)
+        time.sleep(3)
 
         # Take a screenshot and save it
         if not os.path.exists(output_folder):
@@ -125,6 +125,7 @@ def main(yaml_file, results_file, progress_file, base_output_folder):
             logging.info(f"Successfully scraped CAS ID: {cas_id}")
         else:
             logging.warning(f"Skipping CAS ID: {cas_id} due to errors or empty NMR data")
+    logging.info("Finished")
 
 
 # Example usage
