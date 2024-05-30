@@ -1,0 +1,32 @@
+##TITLE=Methanone,(2-bromophenyl)-2-pyridinyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=76160-34-4
+##$NIST MASS SPEC NO=147218
+##MOLFORM=C12 H8 Br N O
+##MW=261
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=50
+##LASTX=262
+##FIRSTY=400
+##MAXX=262
+##MINX=50
+##MAXY=9999
+##MINY=90
+##NPOINTS=21
+##PEAK TABLE=(XY..XY)
+50,400 51,790 52,190 63,90
+75,890 76,990 77,490 78,890
+101,200 126,300 127,980 128,400
+152,90 153,290 154,1101 155,2902
+182,9999 183,2382 233,100 260,190
+262,190
+##END=

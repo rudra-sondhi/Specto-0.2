@@ -1,0 +1,31 @@
+##TITLE=Propane-1,3-dione, 1,3-diphenyl-2-(phenylimino)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=24416-28-2
+##$NIST MASS SPEC NO=145377
+##MOLFORM=C21 H15 N O2
+##MW=313
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=51
+##LASTX=314
+##FIRSTY=1171
+##MAXX=314
+##MINX=51
+##MAXY=9999
+##MINY=110
+##NPOINTS=19
+##PEAK TABLE=(XY..XY)
+51,1171 52,220 57,220 74,220
+76,350 77,4283 78,220 79,110
+93,220 103,220 104,340 105,9999
+132,220 152,340 208,1040 210,230
+211,570 313,800 314,230
+##END=

@@ -1,0 +1,31 @@
+##TITLE=Phenol, m-(1-methyl-3-propyl-3-pyrrolidinyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=428-37-5
+##$NIST MASS SPEC NO=120945
+##MOLFORM=C14 H21 N O
+##MW=219
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=42
+##LASTX=219
+##FIRSTY=1883
+##MAXX=219
+##MINX=42
+##MAXY=9999
+##MINY=91
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+42,1883 44,1798 53,95 55,91
+57,9999 58,508 65,184 77,191
+79,106 82,102 91,186 105,96
+107,213 133,192 147,100 175,96
+176,96 177,621 218,104 219,309
+##END=

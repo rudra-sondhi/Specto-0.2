@@ -1,0 +1,563 @@
+2024-05-28 13:10:07,547: INFO: Booting
+2024-05-28 13:10:47,327: INFO: Booting 2
+2024-05-28 13:10:47,665: INFO: Created mass spectrum for CAS ID: 100-00-5
+2024-05-28 13:10:47,667: INFO: Mass added for CAS_ID: 100-00-5
+2024-05-28 13:10:47,864: INFO: Created ir spectrum for CAS ID: 100-00-5
+2024-05-28 13:10:47,866: INFO: IR added for CAS_ID: 100-00-5
+2024-05-28 13:10:48,068: INFO: Created mass spectrum for CAS ID: 100-01-6
+2024-05-28 13:10:48,070: INFO: Mass added for CAS_ID: 100-01-6
+2024-05-28 13:10:48,281: INFO: Created ir spectrum for CAS ID: 100-01-6
+2024-05-28 13:10:48,284: INFO: IR added for CAS_ID: 100-01-6
+2024-05-28 13:10:48,477: INFO: Created mass spectrum for CAS ID: 100-02-7
+2024-05-28 13:10:48,479: INFO: Mass added for CAS_ID: 100-02-7
+2024-05-28 13:10:48,668: INFO: Created ir spectrum for CAS ID: 100-02-7
+2024-05-28 13:10:48,671: INFO: IR added for CAS_ID: 100-02-7
+2024-05-28 13:10:48,875: INFO: Created mass spectrum for CAS ID: 100-06-1
+2024-05-28 13:10:48,879: INFO: Mass added for CAS_ID: 100-06-1
+2024-05-28 13:10:49,086: INFO: Created ir spectrum for CAS ID: 100-06-1
+2024-05-28 13:10:49,087: INFO: IR added for CAS_ID: 100-06-1
+2024-05-28 13:10:49,300: INFO: Created mass spectrum for CAS ID: 100-07-2
+2024-05-28 13:10:49,301: INFO: Mass added for CAS_ID: 100-07-2
+2024-05-28 13:10:49,486: INFO: Spectrum not found for CAS ID 100-07-2 with params {'Type': 'IR', 'JCAMP': 'C100-07-2'}
+2024-05-28 13:10:49,487: INFO: IR added for CAS_ID: 100-07-2
+2024-05-28 13:10:49,675: INFO: Created mass spectrum for CAS ID: 100-09-4
+2024-05-28 13:10:49,676: INFO: Mass added for CAS_ID: 100-09-4
+2024-05-28 13:10:49,869: INFO: Created ir spectrum for CAS ID: 100-09-4
+2024-05-28 13:10:49,872: INFO: IR added for CAS_ID: 100-09-4
+2024-05-28 13:10:50,065: INFO: Created mass spectrum for CAS ID: 100-10-7
+2024-05-28 13:10:50,068: INFO: Mass added for CAS_ID: 100-10-7
+2024-05-28 13:10:50,278: INFO: Created ir spectrum for CAS ID: 100-10-7
+2024-05-28 13:10:50,280: INFO: IR added for CAS_ID: 100-10-7
+2024-05-28 13:10:50,464: INFO: Created mass spectrum for CAS ID: 100-11-8
+2024-05-28 13:10:50,465: INFO: Mass added for CAS_ID: 100-11-8
+2024-05-28 13:10:50,656: INFO: Created ir spectrum for CAS ID: 100-11-8
+2024-05-28 13:10:50,658: INFO: IR added for CAS_ID: 100-11-8
+2024-05-28 13:10:50,856: INFO: Created mass spectrum for CAS ID: 100-12-9
+2024-05-28 13:10:50,860: INFO: Mass added for CAS_ID: 100-12-9
+2024-05-28 13:10:51,075: INFO: Created ir spectrum for CAS ID: 100-12-9
+2024-05-28 13:10:51,076: INFO: IR added for CAS_ID: 100-12-9
+2024-05-28 13:10:51,264: INFO: Created mass spectrum for CAS ID: 100-14-1
+2024-05-28 13:10:51,266: INFO: Mass added for CAS_ID: 100-14-1
+2024-05-28 13:10:51,457: INFO: Created ir spectrum for CAS ID: 100-14-1
+2024-05-28 13:10:51,459: INFO: IR added for CAS_ID: 100-14-1
+2024-05-28 13:10:51,659: INFO: Created mass spectrum for CAS ID: 100-15-2
+2024-05-28 13:10:51,663: INFO: Mass added for CAS_ID: 100-15-2
+2024-05-28 13:10:51,859: INFO: Created ir spectrum for CAS ID: 100-15-2
+2024-05-28 13:10:51,862: INFO: IR added for CAS_ID: 100-15-2
+2024-05-28 13:10:52,268: INFO: Created mass spectrum for CAS ID: 100-16-3
+2024-05-28 13:10:52,270: INFO: Mass added for CAS_ID: 100-16-3
+2024-05-28 13:10:52,478: INFO: Created ir spectrum for CAS ID: 100-16-3
+2024-05-28 13:10:52,481: INFO: IR added for CAS_ID: 100-16-3
+2024-05-28 13:10:52,670: INFO: Created mass spectrum for CAS ID: 100-17-4
+2024-05-28 13:10:52,671: INFO: Mass added for CAS_ID: 100-17-4
+2024-05-28 13:10:52,861: INFO: Created ir spectrum for CAS ID: 100-17-4
+2024-05-28 13:10:52,863: INFO: IR added for CAS_ID: 100-17-4
+2024-05-28 13:10:53,062: INFO: Created mass spectrum for CAS ID: 100-18-5
+2024-05-28 13:10:53,065: INFO: Mass added for CAS_ID: 100-18-5
+2024-05-28 13:10:53,267: INFO: Created ir spectrum for CAS ID: 100-18-5
+2024-05-28 13:10:53,268: INFO: IR added for CAS_ID: 100-18-5
+2024-05-28 13:10:53,455: INFO: Created mass spectrum for CAS ID: 100-19-6
+2024-05-28 13:10:53,457: INFO: Mass added for CAS_ID: 100-19-6
+2024-05-28 13:13:08,689: INFO: Booting
+2024-05-28 13:13:49,530: INFO: Booting 2
+2024-05-28 13:13:49,870: INFO: Created mass spectrum for CAS ID: 100-00-5
+2024-05-28 13:13:49,872: INFO: Mass added for CAS_ID: 100-00-5
+2024-05-28 13:13:50,089: INFO: Created ir spectrum for CAS ID: 100-00-5
+2024-05-28 13:13:50,092: INFO: IR added for CAS_ID: 100-00-5
+2024-05-28 13:13:50,092: INFO: Saving data for batch ending with CAS ID 100-00-5
+2024-05-28 13:13:50,096: INFO: Successfully saved data for CAS ID batch_1 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:50,097: INFO: Successfully saved progress for CAS ID 100-00-5
+2024-05-28 13:13:50,285: INFO: Created mass spectrum for CAS ID: 100-01-6
+2024-05-28 13:13:50,286: INFO: Mass added for CAS_ID: 100-01-6
+2024-05-28 13:13:50,508: INFO: Created ir spectrum for CAS ID: 100-01-6
+2024-05-28 13:13:50,509: INFO: IR added for CAS_ID: 100-01-6
+2024-05-28 13:13:50,509: INFO: Saving data for batch ending with CAS ID 100-01-6
+2024-05-28 13:13:50,515: INFO: Successfully saved data for CAS ID batch_2 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:50,516: INFO: Successfully saved progress for CAS ID 100-01-6
+2024-05-28 13:13:50,698: INFO: Created mass spectrum for CAS ID: 100-02-7
+2024-05-28 13:13:50,700: INFO: Mass added for CAS_ID: 100-02-7
+2024-05-28 13:13:50,899: INFO: Created ir spectrum for CAS ID: 100-02-7
+2024-05-28 13:13:50,902: INFO: IR added for CAS_ID: 100-02-7
+2024-05-28 13:13:50,902: INFO: Saving data for batch ending with CAS ID 100-02-7
+2024-05-28 13:13:50,917: INFO: Successfully saved data for CAS ID batch_3 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:50,918: INFO: Successfully saved progress for CAS ID 100-02-7
+2024-05-28 13:13:51,114: INFO: Created mass spectrum for CAS ID: 100-06-1
+2024-05-28 13:13:51,117: INFO: Mass added for CAS_ID: 100-06-1
+2024-05-28 13:13:51,341: INFO: Created ir spectrum for CAS ID: 100-06-1
+2024-05-28 13:13:51,342: INFO: IR added for CAS_ID: 100-06-1
+2024-05-28 13:13:51,343: INFO: Saving data for batch ending with CAS ID 100-06-1
+2024-05-28 13:13:51,356: INFO: Successfully saved data for CAS ID batch_4 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:51,357: INFO: Successfully saved progress for CAS ID 100-06-1
+2024-05-28 13:13:51,549: INFO: Created mass spectrum for CAS ID: 100-07-2
+2024-05-28 13:13:51,552: INFO: Mass added for CAS_ID: 100-07-2
+2024-05-28 13:13:51,803: INFO: Spectrum not found for CAS ID 100-07-2 with params {'Type': 'IR', 'JCAMP': 'C100-07-2'}
+2024-05-28 13:13:51,805: INFO: IR added for CAS_ID: 100-07-2
+2024-05-28 13:13:51,805: INFO: Saving data for batch ending with CAS ID 100-07-2
+2024-05-28 13:13:51,826: INFO: Successfully saved data for CAS ID batch_5 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:51,826: INFO: Successfully saved progress for CAS ID 100-07-2
+2024-05-28 13:13:52,034: INFO: Created mass spectrum for CAS ID: 100-09-4
+2024-05-28 13:13:52,037: INFO: Mass added for CAS_ID: 100-09-4
+2024-05-28 13:13:52,242: INFO: Created ir spectrum for CAS ID: 100-09-4
+2024-05-28 13:13:52,246: INFO: IR added for CAS_ID: 100-09-4
+2024-05-28 13:13:52,246: INFO: Saving data for batch ending with CAS ID 100-09-4
+2024-05-28 13:13:52,275: INFO: Successfully saved data for CAS ID batch_6 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:52,276: INFO: Successfully saved progress for CAS ID 100-09-4
+2024-05-28 13:13:52,471: INFO: Created mass spectrum for CAS ID: 100-10-7
+2024-05-28 13:13:52,477: INFO: Mass added for CAS_ID: 100-10-7
+2024-05-28 13:13:52,705: INFO: Created ir spectrum for CAS ID: 100-10-7
+2024-05-28 13:13:52,707: INFO: IR added for CAS_ID: 100-10-7
+2024-05-28 13:13:52,707: INFO: Saving data for batch ending with CAS ID 100-10-7
+2024-05-28 13:13:52,735: INFO: Successfully saved data for CAS ID batch_7 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:52,736: INFO: Successfully saved progress for CAS ID 100-10-7
+2024-05-28 13:13:52,931: INFO: Created mass spectrum for CAS ID: 100-11-8
+2024-05-28 13:13:52,934: INFO: Mass added for CAS_ID: 100-11-8
+2024-05-28 13:13:53,149: INFO: Created ir spectrum for CAS ID: 100-11-8
+2024-05-28 13:13:53,151: INFO: IR added for CAS_ID: 100-11-8
+2024-05-28 13:13:53,152: INFO: Saving data for batch ending with CAS ID 100-11-8
+2024-05-28 13:13:53,186: INFO: Successfully saved data for CAS ID batch_8 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:53,187: INFO: Successfully saved progress for CAS ID 100-11-8
+2024-05-28 13:13:53,389: INFO: Created mass spectrum for CAS ID: 100-12-9
+2024-05-28 13:13:53,392: INFO: Mass added for CAS_ID: 100-12-9
+2024-05-28 13:13:53,582: INFO: Created ir spectrum for CAS ID: 100-12-9
+2024-05-28 13:13:53,585: INFO: IR added for CAS_ID: 100-12-9
+2024-05-28 13:13:53,585: INFO: Saving data for batch ending with CAS ID 100-12-9
+2024-05-28 13:13:53,623: INFO: Successfully saved data for CAS ID batch_9 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:53,624: INFO: Successfully saved progress for CAS ID 100-12-9
+2024-05-28 13:13:53,819: INFO: Created mass spectrum for CAS ID: 100-14-1
+2024-05-28 13:13:53,823: INFO: Mass added for CAS_ID: 100-14-1
+2024-05-28 13:13:54,017: INFO: Created ir spectrum for CAS ID: 100-14-1
+2024-05-28 13:13:54,020: INFO: IR added for CAS_ID: 100-14-1
+2024-05-28 13:13:54,020: INFO: Saving data for batch ending with CAS ID 100-14-1
+2024-05-28 13:13:54,065: INFO: Successfully saved data for CAS ID batch_10 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:54,066: INFO: Successfully saved progress for CAS ID 100-14-1
+2024-05-28 13:13:54,255: INFO: Created mass spectrum for CAS ID: 100-15-2
+2024-05-28 13:13:54,257: INFO: Mass added for CAS_ID: 100-15-2
+2024-05-28 13:13:54,443: INFO: Created ir spectrum for CAS ID: 100-15-2
+2024-05-28 13:13:54,445: INFO: IR added for CAS_ID: 100-15-2
+2024-05-28 13:13:54,446: INFO: Saving data for batch ending with CAS ID 100-15-2
+2024-05-28 13:13:54,491: INFO: Successfully saved data for CAS ID batch_11 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:54,491: INFO: Successfully saved progress for CAS ID 100-15-2
+2024-05-28 13:13:54,687: INFO: Created mass spectrum for CAS ID: 100-16-3
+2024-05-28 13:13:54,689: INFO: Mass added for CAS_ID: 100-16-3
+2024-05-28 13:13:54,883: INFO: Created ir spectrum for CAS ID: 100-16-3
+2024-05-28 13:13:54,886: INFO: IR added for CAS_ID: 100-16-3
+2024-05-28 13:13:54,886: INFO: Saving data for batch ending with CAS ID 100-16-3
+2024-05-28 13:13:54,932: INFO: Successfully saved data for CAS ID batch_12 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:54,932: INFO: Successfully saved progress for CAS ID 100-16-3
+2024-05-28 13:13:55,115: INFO: Created mass spectrum for CAS ID: 100-17-4
+2024-05-28 13:13:55,117: INFO: Mass added for CAS_ID: 100-17-4
+2024-05-28 13:13:55,318: INFO: Created ir spectrum for CAS ID: 100-17-4
+2024-05-28 13:13:55,320: INFO: IR added for CAS_ID: 100-17-4
+2024-05-28 13:13:55,321: INFO: Saving data for batch ending with CAS ID 100-17-4
+2024-05-28 13:13:55,373: INFO: Successfully saved data for CAS ID batch_13 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:55,374: INFO: Successfully saved progress for CAS ID 100-17-4
+2024-05-28 13:13:55,572: INFO: Created mass spectrum for CAS ID: 100-18-5
+2024-05-28 13:13:55,574: INFO: Mass added for CAS_ID: 100-18-5
+2024-05-28 13:13:55,769: INFO: Created ir spectrum for CAS ID: 100-18-5
+2024-05-28 13:13:55,772: INFO: IR added for CAS_ID: 100-18-5
+2024-05-28 13:13:55,772: INFO: Saving data for batch ending with CAS ID 100-18-5
+2024-05-28 13:13:55,826: INFO: Successfully saved data for CAS ID batch_14 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:13:55,827: INFO: Successfully saved progress for CAS ID 100-18-5
+2024-05-28 13:15:05,794: INFO: Booting
+2024-05-28 13:15:46,070: INFO: Booting 2
+2024-05-28 13:15:46,408: INFO: Created mass spectrum for CAS ID: 100-19-6
+2024-05-28 13:15:46,410: INFO: Mass added for CAS_ID: 100-19-6
+2024-05-28 13:15:46,611: INFO: Created ir spectrum for CAS ID: 100-19-6
+2024-05-28 13:15:46,613: INFO: IR added for CAS_ID: 100-19-6
+2024-05-28 13:15:46,613: INFO: Saving data for batch ending with CAS ID 100-19-6
+2024-05-28 13:15:46,670: INFO: Successfully saved data for CAS ID batch_1 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:46,670: INFO: Successfully saved progress for CAS ID 100-19-6
+2024-05-28 13:15:46,860: INFO: Created mass spectrum for CAS ID: 100-20-9
+2024-05-28 13:15:46,862: INFO: Mass added for CAS_ID: 100-20-9
+2024-05-28 13:15:47,097: INFO: Created ir spectrum for CAS ID: 100-20-9
+2024-05-28 13:15:47,099: INFO: IR added for CAS_ID: 100-20-9
+2024-05-28 13:15:47,099: INFO: Saving data for batch ending with CAS ID 100-20-9
+2024-05-28 13:15:47,152: INFO: Successfully saved data for CAS ID batch_2 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:47,153: INFO: Successfully saved progress for CAS ID 100-20-9
+2024-05-28 13:15:47,350: INFO: Created mass spectrum for CAS ID: 100-21-0
+2024-05-28 13:15:47,353: INFO: Mass added for CAS_ID: 100-21-0
+2024-05-28 13:15:47,545: INFO: Created ir spectrum for CAS ID: 100-21-0
+2024-05-28 13:15:47,547: INFO: IR added for CAS_ID: 100-21-0
+2024-05-28 13:15:47,547: INFO: Saving data for batch ending with CAS ID 100-21-0
+2024-05-28 13:15:47,610: INFO: Successfully saved data for CAS ID batch_3 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:47,610: INFO: Successfully saved progress for CAS ID 100-21-0
+2024-05-28 13:15:47,799: INFO: Created mass spectrum for CAS ID: 100-22-1
+2024-05-28 13:15:47,802: INFO: Mass added for CAS_ID: 100-22-1
+2024-05-28 13:15:48,003: INFO: Created ir spectrum for CAS ID: 100-22-1
+2024-05-28 13:15:48,005: INFO: IR added for CAS_ID: 100-22-1
+2024-05-28 13:15:48,006: INFO: Saving data for batch ending with CAS ID 100-22-1
+2024-05-28 13:15:48,076: INFO: Successfully saved data for CAS ID batch_4 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:48,076: INFO: Successfully saved progress for CAS ID 100-22-1
+2024-05-28 13:15:48,260: INFO: Created mass spectrum for CAS ID: 100-23-2
+2024-05-28 13:15:48,262: INFO: Mass added for CAS_ID: 100-23-2
+2024-05-28 13:15:48,469: INFO: Created ir spectrum for CAS ID: 100-23-2
+2024-05-28 13:15:48,472: INFO: IR added for CAS_ID: 100-23-2
+2024-05-28 13:15:48,472: INFO: Saving data for batch ending with CAS ID 100-23-2
+2024-05-28 13:15:48,543: INFO: Successfully saved data for CAS ID batch_5 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:48,543: INFO: Successfully saved progress for CAS ID 100-23-2
+2024-05-28 13:15:48,737: INFO: Created mass spectrum for CAS ID: 100-25-4
+2024-05-28 13:15:48,740: INFO: Mass added for CAS_ID: 100-25-4
+2024-05-28 13:15:48,947: INFO: Created ir spectrum for CAS ID: 100-25-4
+2024-05-28 13:15:48,950: INFO: IR added for CAS_ID: 100-25-4
+2024-05-28 13:15:48,950: INFO: Saving data for batch ending with CAS ID 100-25-4
+2024-05-28 13:15:49,024: INFO: Successfully saved data for CAS ID batch_6 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:49,024: INFO: Successfully saved progress for CAS ID 100-25-4
+2024-05-28 13:15:49,205: INFO: Created mass spectrum for CAS ID: 100-27-6
+2024-05-28 13:15:49,207: INFO: Mass added for CAS_ID: 100-27-6
+2024-05-28 13:15:49,432: INFO: Created ir spectrum for CAS ID: 100-27-6
+2024-05-28 13:15:49,434: INFO: IR added for CAS_ID: 100-27-6
+2024-05-28 13:15:49,434: INFO: Saving data for batch ending with CAS ID 100-27-6
+2024-05-28 13:15:49,505: INFO: Successfully saved data for CAS ID batch_7 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:49,506: INFO: Successfully saved progress for CAS ID 100-27-6
+2024-05-28 13:15:49,700: INFO: Created mass spectrum for CAS ID: 100-28-7
+2024-05-28 13:15:49,702: INFO: Mass added for CAS_ID: 100-28-7
+2024-05-28 13:15:49,905: INFO: Created ir spectrum for CAS ID: 100-28-7
+2024-05-28 13:15:49,908: INFO: IR added for CAS_ID: 100-28-7
+2024-05-28 13:15:49,908: INFO: Saving data for batch ending with CAS ID 100-28-7
+2024-05-28 13:15:49,984: INFO: Successfully saved data for CAS ID batch_8 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:49,984: INFO: Successfully saved progress for CAS ID 100-28-7
+2024-05-28 13:15:50,176: INFO: Created mass spectrum for CAS ID: 100-29-8
+2024-05-28 13:15:50,178: INFO: Mass added for CAS_ID: 100-29-8
+2024-05-28 13:15:50,382: INFO: Created ir spectrum for CAS ID: 100-29-8
+2024-05-28 13:15:50,384: INFO: IR added for CAS_ID: 100-29-8
+2024-05-28 13:15:50,385: INFO: Saving data for batch ending with CAS ID 100-29-8
+2024-05-28 13:15:50,461: INFO: Successfully saved data for CAS ID batch_9 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:50,462: INFO: Successfully saved progress for CAS ID 100-29-8
+2024-05-28 13:15:50,666: INFO: Created mass spectrum for CAS ID: 100-32-3
+2024-05-28 13:15:50,668: INFO: Mass added for CAS_ID: 100-32-3
+2024-05-28 13:15:50,870: INFO: Created ir spectrum for CAS ID: 100-32-3
+2024-05-28 13:15:50,873: INFO: IR added for CAS_ID: 100-32-3
+2024-05-28 13:15:50,874: INFO: Saving data for batch ending with CAS ID 100-32-3
+2024-05-28 13:15:50,961: INFO: Successfully saved data for CAS ID batch_10 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:50,962: INFO: Successfully saved progress for CAS ID 100-32-3
+2024-05-28 13:15:51,155: INFO: Created mass spectrum for CAS ID: 100-36-7
+2024-05-28 13:15:51,157: INFO: Mass added for CAS_ID: 100-36-7
+2024-05-28 13:15:51,359: INFO: Created ir spectrum for CAS ID: 100-36-7
+2024-05-28 13:15:51,362: INFO: IR added for CAS_ID: 100-36-7
+2024-05-28 13:15:51,362: INFO: Saving data for batch ending with CAS ID 100-36-7
+2024-05-28 13:15:51,453: INFO: Successfully saved data for CAS ID batch_11 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:51,453: INFO: Successfully saved progress for CAS ID 100-36-7
+2024-05-28 13:15:51,663: INFO: Created mass spectrum for CAS ID: 100-37-8
+2024-05-28 13:15:51,667: INFO: Mass added for CAS_ID: 100-37-8
+2024-05-28 13:15:51,873: INFO: Created ir spectrum for CAS ID: 100-37-8
+2024-05-28 13:15:51,878: INFO: IR added for CAS_ID: 100-37-8
+2024-05-28 13:15:51,878: INFO: Saving data for batch ending with CAS ID 100-37-8
+2024-05-28 13:15:51,980: INFO: Successfully saved data for CAS ID batch_12 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:51,980: INFO: Successfully saved progress for CAS ID 100-37-8
+2024-05-28 13:15:52,169: INFO: Created mass spectrum for CAS ID: 100-39-0
+2024-05-28 13:15:52,171: INFO: Mass added for CAS_ID: 100-39-0
+2024-05-28 13:15:52,382: INFO: Created ir spectrum for CAS ID: 100-39-0
+2024-05-28 13:15:52,387: INFO: IR added for CAS_ID: 100-39-0
+2024-05-28 13:15:52,387: INFO: Saving data for batch ending with CAS ID 100-39-0
+2024-05-28 13:15:52,488: INFO: Successfully saved data for CAS ID batch_13 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:52,488: INFO: Successfully saved progress for CAS ID 100-39-0
+2024-05-28 13:15:52,676: INFO: Created mass spectrum for CAS ID: 100-40-3
+2024-05-28 13:15:52,679: INFO: Mass added for CAS_ID: 100-40-3
+2024-05-28 13:15:52,881: INFO: Created ir spectrum for CAS ID: 100-40-3
+2024-05-28 13:15:52,887: INFO: IR added for CAS_ID: 100-40-3
+2024-05-28 13:15:52,887: INFO: Saving data for batch ending with CAS ID 100-40-3
+2024-05-28 13:15:52,996: INFO: Successfully saved data for CAS ID batch_14 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:52,997: INFO: Successfully saved progress for CAS ID 100-40-3
+2024-05-28 13:15:53,180: INFO: Created mass spectrum for CAS ID: 100-41-4
+2024-05-28 13:15:53,183: INFO: Mass added for CAS_ID: 100-41-4
+2024-05-28 13:15:53,381: INFO: Created ir spectrum for CAS ID: 100-41-4
+2024-05-28 13:15:53,384: INFO: IR added for CAS_ID: 100-41-4
+2024-05-28 13:15:53,385: INFO: Saving data for batch ending with CAS ID 100-41-4
+2024-05-28 13:15:53,496: INFO: Successfully saved data for CAS ID batch_15 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:53,496: INFO: Successfully saved progress for CAS ID 100-41-4
+2024-05-28 13:15:53,701: INFO: Created mass spectrum for CAS ID: 100-42-5
+2024-05-28 13:15:53,705: INFO: Mass added for CAS_ID: 100-42-5
+2024-05-28 13:15:53,921: INFO: Created ir spectrum for CAS ID: 100-42-5
+2024-05-28 13:15:53,924: INFO: IR added for CAS_ID: 100-42-5
+2024-05-28 13:15:53,925: INFO: Saving data for batch ending with CAS ID 100-42-5
+2024-05-28 13:15:54,038: INFO: Successfully saved data for CAS ID batch_16 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:54,038: INFO: Successfully saved progress for CAS ID 100-42-5
+2024-05-28 13:15:54,232: INFO: Created mass spectrum for CAS ID: 100-43-6
+2024-05-28 13:15:54,236: INFO: Mass added for CAS_ID: 100-43-6
+2024-05-28 13:15:54,432: INFO: Created ir spectrum for CAS ID: 100-43-6
+2024-05-28 13:15:54,437: INFO: IR added for CAS_ID: 100-43-6
+2024-05-28 13:15:54,437: INFO: Saving data for batch ending with CAS ID 100-43-6
+2024-05-28 13:15:54,549: INFO: Successfully saved data for CAS ID batch_17 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:54,550: INFO: Successfully saved progress for CAS ID 100-43-6
+2024-05-28 13:15:54,752: INFO: Created mass spectrum for CAS ID: 100-44-7
+2024-05-28 13:15:54,757: INFO: Mass added for CAS_ID: 100-44-7
+2024-05-28 13:15:54,950: INFO: Created ir spectrum for CAS ID: 100-44-7
+2024-05-28 13:15:54,951: INFO: IR added for CAS_ID: 100-44-7
+2024-05-28 13:15:54,951: INFO: Saving data for batch ending with CAS ID 100-44-7
+2024-05-28 13:15:55,031: INFO: Successfully saved data for CAS ID batch_18 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:55,031: INFO: Successfully saved progress for CAS ID 100-44-7
+2024-05-28 13:15:55,224: INFO: Created mass spectrum for CAS ID: 100-45-8
+2024-05-28 13:15:55,227: INFO: Mass added for CAS_ID: 100-45-8
+2024-05-28 13:15:55,445: INFO: Created ir spectrum for CAS ID: 100-45-8
+2024-05-28 13:15:55,451: INFO: IR added for CAS_ID: 100-45-8
+2024-05-28 13:15:55,451: INFO: Saving data for batch ending with CAS ID 100-45-8
+2024-05-28 13:15:55,568: INFO: Successfully saved data for CAS ID batch_19 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:55,569: INFO: Successfully saved progress for CAS ID 100-45-8
+2024-05-28 13:15:55,776: INFO: Created mass spectrum for CAS ID: 100-46-9
+2024-05-28 13:15:55,778: INFO: Mass added for CAS_ID: 100-46-9
+2024-05-28 13:15:56,203: INFO: Created ir spectrum for CAS ID: 100-46-9
+2024-05-28 13:15:56,207: INFO: IR added for CAS_ID: 100-46-9
+2024-05-28 13:15:56,207: INFO: Saving data for batch ending with CAS ID 100-46-9
+2024-05-28 13:15:56,331: INFO: Successfully saved data for CAS ID batch_20 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:56,332: INFO: Successfully saved progress for CAS ID 100-46-9
+2024-05-28 13:15:56,549: INFO: Created mass spectrum for CAS ID: 100-47-0
+2024-05-28 13:15:56,552: INFO: Mass added for CAS_ID: 100-47-0
+2024-05-28 13:15:56,760: INFO: Created ir spectrum for CAS ID: 100-47-0
+2024-05-28 13:15:56,762: INFO: IR added for CAS_ID: 100-47-0
+2024-05-28 13:15:56,763: INFO: Saving data for batch ending with CAS ID 100-47-0
+2024-05-28 13:15:56,886: INFO: Successfully saved data for CAS ID batch_21 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:56,887: INFO: Successfully saved progress for CAS ID 100-47-0
+2024-05-28 13:15:57,076: INFO: Created mass spectrum for CAS ID: 100-48-1
+2024-05-28 13:15:57,079: INFO: Mass added for CAS_ID: 100-48-1
+2024-05-28 13:15:57,276: INFO: Created ir spectrum for CAS ID: 100-48-1
+2024-05-28 13:15:57,278: INFO: IR added for CAS_ID: 100-48-1
+2024-05-28 13:15:57,278: INFO: Saving data for batch ending with CAS ID 100-48-1
+2024-05-28 13:15:57,391: INFO: Successfully saved data for CAS ID batch_22 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:57,392: INFO: Successfully saved progress for CAS ID 100-48-1
+2024-05-28 13:15:57,572: INFO: Created mass spectrum for CAS ID: 100-49-2
+2024-05-28 13:15:57,574: INFO: Mass added for CAS_ID: 100-49-2
+2024-05-28 13:15:57,837: INFO: Created ir spectrum for CAS ID: 100-49-2
+2024-05-28 13:15:57,841: INFO: IR added for CAS_ID: 100-49-2
+2024-05-28 13:15:57,841: INFO: Saving data for batch ending with CAS ID 100-49-2
+2024-05-28 13:15:57,962: INFO: Successfully saved data for CAS ID batch_23 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:57,963: INFO: Successfully saved progress for CAS ID 100-49-2
+2024-05-28 13:15:58,154: INFO: Created mass spectrum for CAS ID: 100-50-5
+2024-05-28 13:15:58,157: INFO: Mass added for CAS_ID: 100-50-5
+2024-05-28 13:15:58,360: INFO: Created ir spectrum for CAS ID: 100-50-5
+2024-05-28 13:15:58,365: INFO: IR added for CAS_ID: 100-50-5
+2024-05-28 13:15:58,365: INFO: Saving data for batch ending with CAS ID 100-50-5
+2024-05-28 13:15:58,498: INFO: Successfully saved data for CAS ID batch_24 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:58,499: INFO: Successfully saved progress for CAS ID 100-50-5
+2024-05-28 13:15:58,703: INFO: Created mass spectrum for CAS ID: 100-51-6
+2024-05-28 13:15:58,706: INFO: Mass added for CAS_ID: 100-51-6
+2024-05-28 13:15:58,923: INFO: Created ir spectrum for CAS ID: 100-51-6
+2024-05-28 13:15:58,929: INFO: IR added for CAS_ID: 100-51-6
+2024-05-28 13:15:58,929: INFO: Saving data for batch ending with CAS ID 100-51-6
+2024-05-28 13:15:59,066: INFO: Successfully saved data for CAS ID batch_25 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:59,066: INFO: Successfully saved progress for CAS ID 100-51-6
+2024-05-28 13:15:59,257: INFO: Created mass spectrum for CAS ID: 100-52-7
+2024-05-28 13:15:59,261: INFO: Mass added for CAS_ID: 100-52-7
+2024-05-28 13:15:59,467: INFO: Created ir spectrum for CAS ID: 100-52-7
+2024-05-28 13:15:59,471: INFO: IR added for CAS_ID: 100-52-7
+2024-05-28 13:15:59,471: INFO: Saving data for batch ending with CAS ID 100-52-7
+2024-05-28 13:15:59,612: INFO: Successfully saved data for CAS ID batch_26 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:15:59,613: INFO: Successfully saved progress for CAS ID 100-52-7
+2024-05-28 13:15:59,815: INFO: Created mass spectrum for CAS ID: 100-53-8
+2024-05-28 13:15:59,819: INFO: Mass added for CAS_ID: 100-53-8
+2024-05-28 13:16:00,038: INFO: Created ir spectrum for CAS ID: 100-53-8
+2024-05-28 13:16:00,041: INFO: IR added for CAS_ID: 100-53-8
+2024-05-28 13:16:00,042: INFO: Saving data for batch ending with CAS ID 100-53-8
+2024-05-28 13:16:00,183: INFO: Successfully saved data for CAS ID batch_27 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:00,184: INFO: Successfully saved progress for CAS ID 100-53-8
+2024-05-28 13:16:00,377: INFO: Created mass spectrum for CAS ID: 100-54-9
+2024-05-28 13:16:00,381: INFO: Mass added for CAS_ID: 100-54-9
+2024-05-28 13:16:00,586: INFO: Created ir spectrum for CAS ID: 100-54-9
+2024-05-28 13:16:00,589: INFO: IR added for CAS_ID: 100-54-9
+2024-05-28 13:16:00,589: INFO: Saving data for batch ending with CAS ID 100-54-9
+2024-05-28 13:16:00,732: INFO: Successfully saved data for CAS ID batch_28 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:00,733: INFO: Successfully saved progress for CAS ID 100-54-9
+2024-05-28 13:16:00,935: INFO: Created mass spectrum for CAS ID: 100-55-0
+2024-05-28 13:16:00,939: INFO: Mass added for CAS_ID: 100-55-0
+2024-05-28 13:16:01,177: INFO: Created ir spectrum for CAS ID: 100-55-0
+2024-05-28 13:16:01,188: INFO: IR added for CAS_ID: 100-55-0
+2024-05-28 13:16:01,188: INFO: Saving data for batch ending with CAS ID 100-55-0
+2024-05-28 13:16:01,364: INFO: Successfully saved data for CAS ID batch_29 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:01,364: INFO: Successfully saved progress for CAS ID 100-55-0
+2024-05-28 13:16:01,569: INFO: Created mass spectrum for CAS ID: 100-60-7
+2024-05-28 13:16:01,573: INFO: Mass added for CAS_ID: 100-60-7
+2024-05-28 13:16:01,803: INFO: Created ir spectrum for CAS ID: 100-60-7
+2024-05-28 13:16:01,808: INFO: IR added for CAS_ID: 100-60-7
+2024-05-28 13:16:01,809: INFO: Saving data for batch ending with CAS ID 100-60-7
+2024-05-28 13:16:01,954: INFO: Successfully saved data for CAS ID batch_30 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:01,954: INFO: Successfully saved progress for CAS ID 100-60-7
+2024-05-28 13:16:02,139: INFO: Created mass spectrum for CAS ID: 100-61-8
+2024-05-28 13:16:02,144: INFO: Mass added for CAS_ID: 100-61-8
+2024-05-28 13:16:02,339: INFO: Created ir spectrum for CAS ID: 100-61-8
+2024-05-28 13:16:02,343: INFO: IR added for CAS_ID: 100-61-8
+2024-05-28 13:16:02,343: INFO: Saving data for batch ending with CAS ID 100-61-8
+2024-05-28 13:16:02,489: INFO: Successfully saved data for CAS ID batch_31 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:02,490: INFO: Successfully saved progress for CAS ID 100-61-8
+2024-05-28 13:16:02,673: INFO: Created mass spectrum for CAS ID: 100-62-9
+2024-05-28 13:16:02,676: INFO: Mass added for CAS_ID: 100-62-9
+2024-05-28 13:16:02,870: INFO: Created ir spectrum for CAS ID: 100-62-9
+2024-05-28 13:16:02,872: INFO: IR added for CAS_ID: 100-62-9
+2024-05-28 13:16:02,872: INFO: Saving data for batch ending with CAS ID 100-62-9
+2024-05-28 13:16:03,007: INFO: Successfully saved data for CAS ID batch_32 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:03,007: INFO: Successfully saved progress for CAS ID 100-62-9
+2024-05-28 13:16:03,189: INFO: Created mass spectrum for CAS ID: 100-63-0
+2024-05-28 13:16:03,192: INFO: Mass added for CAS_ID: 100-63-0
+2024-05-28 13:16:03,395: INFO: Created ir spectrum for CAS ID: 100-63-0
+2024-05-28 13:16:03,401: INFO: IR added for CAS_ID: 100-63-0
+2024-05-28 13:16:03,402: INFO: Saving data for batch ending with CAS ID 100-63-0
+2024-05-28 13:16:03,556: INFO: Successfully saved data for CAS ID batch_33 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:03,556: INFO: Successfully saved progress for CAS ID 100-63-0
+2024-05-28 13:16:03,743: INFO: Created mass spectrum for CAS ID: 100-65-2
+2024-05-28 13:16:03,747: INFO: Mass added for CAS_ID: 100-65-2
+2024-05-28 13:16:03,949: INFO: Created ir spectrum for CAS ID: 100-65-2
+2024-05-28 13:16:03,952: INFO: IR added for CAS_ID: 100-65-2
+2024-05-28 13:16:03,953: INFO: Saving data for batch ending with CAS ID 100-65-2
+2024-05-28 13:16:04,203: INFO: Successfully saved data for CAS ID batch_34 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:04,204: INFO: Successfully saved progress for CAS ID 100-65-2
+2024-05-28 13:16:04,421: INFO: Created mass spectrum for CAS ID: 100-66-3
+2024-05-28 13:16:04,422: INFO: Mass added for CAS_ID: 100-66-3
+2024-05-28 13:16:04,618: INFO: Created ir spectrum for CAS ID: 100-66-3
+2024-05-28 13:16:04,619: INFO: IR added for CAS_ID: 100-66-3
+2024-05-28 13:16:04,619: INFO: Saving data for batch ending with CAS ID 100-66-3
+2024-05-28 13:16:04,744: INFO: Successfully saved data for CAS ID batch_35 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:04,744: INFO: Successfully saved progress for CAS ID 100-66-3
+2024-05-28 13:16:04,931: INFO: Created mass spectrum for CAS ID: 100-68-5
+2024-05-28 13:16:04,933: INFO: Mass added for CAS_ID: 100-68-5
+2024-05-28 13:16:05,151: INFO: Created ir spectrum for CAS ID: 100-68-5
+2024-05-28 13:16:05,157: INFO: IR added for CAS_ID: 100-68-5
+2024-05-28 13:16:05,157: INFO: Saving data for batch ending with CAS ID 100-68-5
+2024-05-28 13:16:05,321: INFO: Successfully saved data for CAS ID batch_36 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:05,322: INFO: Successfully saved progress for CAS ID 100-68-5
+2024-05-28 13:16:05,518: INFO: Created mass spectrum for CAS ID: 100-69-6
+2024-05-28 13:16:05,521: INFO: Mass added for CAS_ID: 100-69-6
+2024-05-28 13:16:05,751: INFO: Created ir spectrum for CAS ID: 100-69-6
+2024-05-28 13:16:05,752: INFO: IR added for CAS_ID: 100-69-6
+2024-05-28 13:16:05,753: INFO: Saving data for batch ending with CAS ID 100-69-6
+2024-05-28 13:16:05,924: INFO: Successfully saved data for CAS ID batch_37 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:05,925: INFO: Successfully saved progress for CAS ID 100-69-6
+2024-05-28 13:16:06,115: INFO: Created mass spectrum for CAS ID: 100-70-9
+2024-05-28 13:16:06,118: INFO: Mass added for CAS_ID: 100-70-9
+2024-05-28 13:16:06,333: INFO: Created ir spectrum for CAS ID: 100-70-9
+2024-05-28 13:16:06,338: INFO: IR added for CAS_ID: 100-70-9
+2024-05-28 13:16:06,339: INFO: Saving data for batch ending with CAS ID 100-70-9
+2024-05-28 13:16:06,509: INFO: Successfully saved data for CAS ID batch_38 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:06,509: INFO: Successfully saved progress for CAS ID 100-70-9
+2024-05-28 13:16:06,701: INFO: Created mass spectrum for CAS ID: 100-71-0
+2024-05-28 13:16:06,704: INFO: Mass added for CAS_ID: 100-71-0
+2024-05-28 13:16:06,904: INFO: Created ir spectrum for CAS ID: 100-71-0
+2024-05-28 13:16:06,908: INFO: IR added for CAS_ID: 100-71-0
+2024-05-28 13:16:06,908: INFO: Saving data for batch ending with CAS ID 100-71-0
+2024-05-28 13:16:07,081: INFO: Successfully saved data for CAS ID batch_39 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:07,081: INFO: Successfully saved progress for CAS ID 100-71-0
+2024-05-28 13:16:07,266: INFO: Created mass spectrum for CAS ID: 100-72-1
+2024-05-28 13:16:07,268: INFO: Mass added for CAS_ID: 100-72-1
+2024-05-28 13:16:07,480: INFO: Created ir spectrum for CAS ID: 100-72-1
+2024-05-28 13:16:07,485: INFO: IR added for CAS_ID: 100-72-1
+2024-05-28 13:16:07,486: INFO: Saving data for batch ending with CAS ID 100-72-1
+2024-05-28 13:16:07,669: INFO: Successfully saved data for CAS ID batch_40 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:07,669: INFO: Successfully saved progress for CAS ID 100-72-1
+2024-05-28 13:16:07,859: INFO: Created mass spectrum for CAS ID: 100-73-2
+2024-05-28 13:16:07,862: INFO: Mass added for CAS_ID: 100-73-2
+2024-05-28 13:16:08,063: INFO: Created ir spectrum for CAS ID: 100-73-2
+2024-05-28 13:16:08,067: INFO: IR added for CAS_ID: 100-73-2
+2024-05-28 13:16:08,067: INFO: Saving data for batch ending with CAS ID 100-73-2
+2024-05-28 13:16:08,242: INFO: Successfully saved data for CAS ID batch_41 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:08,243: INFO: Successfully saved progress for CAS ID 100-73-2
+2024-05-28 13:16:08,441: INFO: Created mass spectrum for CAS ID: 100-74-3
+2024-05-28 13:16:08,445: INFO: Mass added for CAS_ID: 100-74-3
+2024-05-28 13:16:08,650: INFO: Created ir spectrum for CAS ID: 100-74-3
+2024-05-28 13:16:08,653: INFO: IR added for CAS_ID: 100-74-3
+2024-05-28 13:16:08,653: INFO: Saving data for batch ending with CAS ID 100-74-3
+2024-05-28 13:16:08,824: INFO: Successfully saved data for CAS ID batch_42 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:08,824: INFO: Successfully saved progress for CAS ID 100-74-3
+2024-05-28 13:16:09,011: INFO: Created mass spectrum for CAS ID: 100-75-4
+2024-05-28 13:16:09,012: INFO: Mass added for CAS_ID: 100-75-4
+2024-05-28 13:16:09,193: INFO: Created ir spectrum for CAS ID: 100-75-4
+2024-05-28 13:16:09,196: INFO: IR added for CAS_ID: 100-75-4
+2024-05-28 13:16:09,197: INFO: Saving data for batch ending with CAS ID 100-75-4
+2024-05-28 13:16:09,379: INFO: Successfully saved data for CAS ID batch_43 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:09,380: INFO: Successfully saved progress for CAS ID 100-75-4
+2024-05-28 13:16:09,562: INFO: Created mass spectrum for CAS ID: 100-79-8
+2024-05-28 13:16:09,565: INFO: Mass added for CAS_ID: 100-79-8
+2024-05-28 13:16:09,765: INFO: Created ir spectrum for CAS ID: 100-79-8
+2024-05-28 13:16:09,769: INFO: IR added for CAS_ID: 100-79-8
+2024-05-28 13:16:09,769: INFO: Saving data for batch ending with CAS ID 100-79-8
+2024-05-28 13:16:09,951: INFO: Successfully saved data for CAS ID batch_44 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:09,951: INFO: Successfully saved progress for CAS ID 100-79-8
+2024-05-28 13:16:10,137: INFO: Created mass spectrum for CAS ID: 100-80-1
+2024-05-28 13:16:10,140: INFO: Mass added for CAS_ID: 100-80-1
+2024-05-28 13:16:10,351: INFO: Created ir spectrum for CAS ID: 100-80-1
+2024-05-28 13:16:10,354: INFO: IR added for CAS_ID: 100-80-1
+2024-05-28 13:16:10,354: INFO: Saving data for batch ending with CAS ID 100-80-1
+2024-05-28 13:16:10,540: INFO: Successfully saved data for CAS ID batch_45 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:10,541: INFO: Successfully saved progress for CAS ID 100-80-1
+2024-05-28 13:16:10,729: INFO: Created mass spectrum for CAS ID: 100-81-2
+2024-05-28 13:16:10,732: INFO: Mass added for CAS_ID: 100-81-2
+2024-05-28 13:16:10,937: INFO: Created ir spectrum for CAS ID: 100-81-2
+2024-05-28 13:16:10,942: INFO: IR added for CAS_ID: 100-81-2
+2024-05-28 13:16:10,942: INFO: Saving data for batch ending with CAS ID 100-81-2
+2024-05-28 13:16:11,129: INFO: Successfully saved data for CAS ID batch_46 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:11,129: INFO: Successfully saved progress for CAS ID 100-81-2
+2024-05-28 13:16:11,350: INFO: Created mass spectrum for CAS ID: 100-83-4
+2024-05-28 13:16:11,353: INFO: Mass added for CAS_ID: 100-83-4
+2024-05-28 13:16:11,628: INFO: Created ir spectrum for CAS ID: 100-83-4
+2024-05-28 13:16:11,633: INFO: IR added for CAS_ID: 100-83-4
+2024-05-28 13:16:11,633: INFO: Saving data for batch ending with CAS ID 100-83-4
+2024-05-28 13:16:11,818: INFO: Successfully saved data for CAS ID batch_47 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:11,819: INFO: Successfully saved progress for CAS ID 100-83-4
+2024-05-28 13:16:12,011: INFO: Created mass spectrum for CAS ID: 100-84-5
+2024-05-28 13:16:12,014: INFO: Mass added for CAS_ID: 100-84-5
+2024-05-28 13:16:12,222: INFO: Created ir spectrum for CAS ID: 100-84-5
+2024-05-28 13:16:12,224: INFO: IR added for CAS_ID: 100-84-5
+2024-05-28 13:16:12,224: INFO: Saving data for batch ending with CAS ID 100-84-5
+2024-05-28 13:16:12,394: INFO: Successfully saved data for CAS ID batch_48 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:12,394: INFO: Successfully saved progress for CAS ID 100-84-5
+2024-05-28 13:16:12,574: INFO: Created mass spectrum for CAS ID: 100-86-7
+2024-05-28 13:16:12,576: INFO: Mass added for CAS_ID: 100-86-7
+2024-05-28 13:16:12,786: INFO: Created ir spectrum for CAS ID: 100-86-7
+2024-05-28 13:16:12,789: INFO: IR added for CAS_ID: 100-86-7
+2024-05-28 13:16:12,789: INFO: Saving data for batch ending with CAS ID 100-86-7
+2024-05-28 13:16:12,964: INFO: Successfully saved data for CAS ID batch_49 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:12,965: INFO: Successfully saved progress for CAS ID 100-86-7
+2024-05-28 13:16:13,163: INFO: Created mass spectrum for CAS ID: 100-88-9
+2024-05-28 13:16:13,167: INFO: Mass added for CAS_ID: 100-88-9
+2024-05-28 13:16:13,375: INFO: Created ir spectrum for CAS ID: 100-88-9
+2024-05-28 13:16:13,381: INFO: IR added for CAS_ID: 100-88-9
+2024-05-28 13:16:13,382: INFO: Saving data for batch ending with CAS ID 100-88-9
+2024-05-28 13:16:13,577: INFO: Successfully saved data for CAS ID batch_50 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:13,578: INFO: Successfully saved progress for CAS ID 100-88-9
+2024-05-28 13:16:13,774: INFO: Created mass spectrum for CAS ID: 100-91-4
+2024-05-28 13:16:13,778: INFO: Mass added for CAS_ID: 100-91-4
+2024-05-28 13:16:13,998: INFO: Created ir spectrum for CAS ID: 100-91-4
+2024-05-28 13:16:14,002: INFO: IR added for CAS_ID: 100-91-4
+2024-05-28 13:16:14,003: INFO: Saving data for batch ending with CAS ID 100-91-4
+2024-05-28 13:16:14,230: INFO: Successfully saved data for CAS ID batch_51 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:14,230: INFO: Successfully saved progress for CAS ID 100-91-4
+2024-05-28 13:16:14,431: INFO: Created mass spectrum for CAS ID: 100-92-5
+2024-05-28 13:16:14,434: INFO: Mass added for CAS_ID: 100-92-5
+2024-05-28 13:16:14,641: INFO: Created ir spectrum for CAS ID: 100-92-5
+2024-05-28 13:16:14,646: INFO: IR added for CAS_ID: 100-92-5
+2024-05-28 13:16:14,647: INFO: Saving data for batch ending with CAS ID 100-92-5
+2024-05-28 13:16:14,847: INFO: Successfully saved data for CAS ID batch_52 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:14,847: INFO: Successfully saved progress for CAS ID 100-92-5
+2024-05-28 13:16:15,058: INFO: Created mass spectrum for CAS ID: 100-93-6
+2024-05-28 13:16:15,062: INFO: Mass added for CAS_ID: 100-93-6
+2024-05-28 13:16:15,260: INFO: Created ir spectrum for CAS ID: 100-93-6
+2024-05-28 13:16:15,265: INFO: IR added for CAS_ID: 100-93-6
+2024-05-28 13:16:15,265: INFO: Saving data for batch ending with CAS ID 100-93-6
+2024-05-28 13:16:15,471: INFO: Successfully saved data for CAS ID batch_53 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:15,471: INFO: Successfully saved progress for CAS ID 100-93-6
+2024-05-28 13:16:15,671: INFO: Created mass spectrum for CAS ID: 1000-63-1
+2024-05-28 13:16:15,672: INFO: Mass added for CAS_ID: 1000-63-1
+2024-05-28 13:16:15,866: INFO: Created ir spectrum for CAS ID: 1000-63-1
+2024-05-28 13:16:15,867: INFO: IR added for CAS_ID: 1000-63-1
+2024-05-28 13:16:15,867: INFO: Saving data for batch ending with CAS ID 1000-63-1
+2024-05-28 13:16:16,047: INFO: Successfully saved data for CAS ID batch_54 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:16,048: INFO: Successfully saved progress for CAS ID 1000-63-1
+2024-05-28 13:16:16,260: INFO: Created mass spectrum for CAS ID: 1000-86-8
+2024-05-28 13:16:16,262: INFO: Mass added for CAS_ID: 1000-86-8
+2024-05-28 13:16:16,460: INFO: Created ir spectrum for CAS ID: 1000-86-8
+2024-05-28 13:16:16,463: INFO: IR added for CAS_ID: 1000-86-8
+2024-05-28 13:16:16,463: INFO: Saving data for batch ending with CAS ID 1000-86-8
+2024-05-28 13:16:16,662: INFO: Successfully saved data for CAS ID batch_55 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:16,663: INFO: Successfully saved progress for CAS ID 1000-86-8
+2024-05-28 13:16:16,862: INFO: Created mass spectrum for CAS ID: 100043-29-6
+2024-05-28 13:16:16,865: INFO: Mass added for CAS_ID: 100043-29-6
+2024-05-28 13:16:17,069: INFO: Created ir spectrum for CAS ID: 100043-29-6
+2024-05-28 13:16:17,072: INFO: IR added for CAS_ID: 100043-29-6
+2024-05-28 13:16:17,072: INFO: Saving data for batch ending with CAS ID 100043-29-6
+2024-05-28 13:16:17,275: INFO: Successfully saved data for CAS ID batch_56 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:17,276: INFO: Successfully saved progress for CAS ID 100043-29-6
+2024-05-28 13:16:17,479: INFO: Created mass spectrum for CAS ID: 10008-73-8
+2024-05-28 13:16:17,481: INFO: Mass added for CAS_ID: 10008-73-8
+2024-05-28 13:16:17,674: INFO: Created ir spectrum for CAS ID: 10008-73-8
+2024-05-28 13:16:17,675: INFO: IR added for CAS_ID: 10008-73-8
+2024-05-28 13:16:17,675: INFO: Saving data for batch ending with CAS ID 10008-73-8
+2024-05-28 13:16:17,866: INFO: Successfully saved data for CAS ID batch_57 in /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/all_data_MS&IR_PATHS.yaml
+2024-05-28 13:16:17,866: INFO: Successfully saved progress for CAS ID 10008-73-8
+2024-05-28 13:16:18,058: INFO: Created mass spectrum for CAS ID: 1001-45-2
+2024-05-28 13:16:18,060: INFO: Mass added for CAS_ID: 1001-45-2

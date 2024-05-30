@@ -48,7 +48,7 @@ def get_nmr_prediction(url, label, cas_id, smiles, output_folder):
         full_screen_button.click()
 
         # Wait for the page to fully load after entering full screen
-        time.sleep(3)
+        time.sleep(4)
 
         # Take a screenshot and save it
         if not os.path.exists(output_folder):
@@ -65,6 +65,8 @@ def get_nmr_prediction(url, label, cas_id, smiles, output_folder):
         if driver:
             driver.quit()
             logging.info(f"Closed the browser for {cas_id} ({label})")
+            time.sleep(1)
+    
 
 def load_yaml(filename):
     if not os.path.exists(filename):
@@ -129,7 +131,7 @@ def main(yaml_file, results_file, progress_file, base_output_folder):
 
 
 # Example usage
-yaml_file = '/Users/rudrasondhi/Desktop/Specto/Specto/Data_FINAL/IR_Spectra/all_data_SMARTS_FINAL_2024.yaml'  # Replace with the path to your YAML file
+yaml_file = '/Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/All SMILES, SELFIES, Taut.yaml'  # Replace with the path to your YAML file
 results_file = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/NMR Data/nmr_results.yaml'
 progress_file = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/NMR Data/progress.yaml'
 base_output_folder = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/Screenshots'  # Specify the base folder for saving screenshots

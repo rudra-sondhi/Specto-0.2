@@ -1,0 +1,33 @@
+##TITLE=4-Pyridinecarboxamide
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Patti Price, Georgia Bureau of Investigation, Decatur, Georgia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1453-82-3
+##$NIST MASS SPEC NO=247879
+##MOLFORM=C6 H6 N2 O
+##MW=122
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=44
+##LASTX=124
+##FIRSTY=520
+##MAXX=124
+##MINX=44
+##MAXY=9999
+##MINY=30
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+44,520 47,90 48,60 49,140
+50,640 51,1361 52,650 53,90
+75,140 76,140 77,230 78,4053
+79,830 80,40 82,30 94,60
+95,30 104,120 105,110 106,4183
+107,350 120,30 122,9999 123,790
+124,50
+##END=

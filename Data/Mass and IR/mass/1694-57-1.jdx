@@ -1,0 +1,32 @@
+##TITLE=Methanone,(2-chlorophenyl)-2-pyridinyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1694-57-1
+##$NIST MASS SPEC NO=147215
+##MOLFORM=C12 H8 Cl N O
+##MW=217
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=50
+##LASTX=217
+##FIRSTY=890
+##MAXX=217
+##MINX=50
+##MAXY=9999
+##MINY=90
+##NPOINTS=22
+##PEAK TABLE=(XY..XY)
+50,890 51,1591 52,390 63,190
+74,290 75,2212 76,500 77,900
+78,600 111,3563 126,190 127,790
+128,290 129,3172 152,90 153,190
+154,1601 155,190 182,9999 188,100
+189,200 217,290
+##END=

@@ -1,0 +1,31 @@
+##TITLE=Phenol, 2-(1-phenylethyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=V.G.Zaikin, TIPS, Russian Acad. Sci.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=4237-44-9
+##$NIST MASS SPEC NO=215448
+##MOLFORM=C14 H14 O
+##MW=198
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=51
+##LASTX=200
+##FIRSTY=600
+##MAXX=200
+##MINX=51
+##MAXY=9999
+##MINY=50
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+51,600 55,500 77,600 91,1101
+103,700 120,800 121,400 152,600
+153,500 155,600 165,1701 181,800
+183,9999 184,1401 198,4804 199,740
+200,50
+##END=

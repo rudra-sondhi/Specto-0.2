@@ -1,0 +1,31 @@
+##TITLE=2-p-Tolylpyridine
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=N.Klyuev, Institute of Ecology & Evolution, RAS, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=4467-06-5
+##$NIST MASS SPEC NO=284807
+##MOLFORM=C12 H11 N
+##MW=169
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=170
+##FIRSTY=1621
+##MAXX=170
+##MINX=39
+##MAXY=9999
+##MINY=230
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+39,1621 41,721 51,561 63,420
+65,2112 77,450 78,530 84,300
+89,230 91,861 115,601 139,420
+140,330 141,561 154,981 166,571
+167,2863 168,7277 169,9999 170,1351
+##END=

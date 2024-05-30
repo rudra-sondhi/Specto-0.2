@@ -1,0 +1,30 @@
+##TITLE=7-Azanorbornene
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=55590-24-4
+##$NIST MASS SPEC NO=143246
+##MOLFORM=C6 H9 N
+##MW=95
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=38
+##LASTX=95
+##FIRSTY=1000
+##MAXX=95
+##MINX=38
+##MAXY=9999
+##MINY=300
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+38,1000 39,9999 40,590 42,1281
+52,500 53,890 65,1801 66,4313
+67,400 68,1901 69,590 80,3202
+81,790 95,300
+##END=

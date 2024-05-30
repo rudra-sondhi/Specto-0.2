@@ -1,0 +1,31 @@
+##TITLE=Phenglutarimide
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1156-05-4
+##$NIST MASS SPEC NO=120910
+##MOLFORM=C17 H24 N2 O2
+##MW=288
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=42
+##LASTX=288
+##FIRSTY=283
+##MAXX=288
+##MINX=42
+##MAXY=9999
+##MINY=86
+##NPOINTS=19
+##PEAK TABLE=(XY..XY)
+42,283 44,108 55,86 56,306
+58,503 71,90 72,88 84,98
+86,9999 87,511 91,105 99,295
+100,292 115,103 117,101 161,106
+216,600 273,107 288,200
+##END=

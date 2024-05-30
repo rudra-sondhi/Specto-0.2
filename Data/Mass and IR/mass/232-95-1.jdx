@@ -1,0 +1,27 @@
+##TITLE=Naphtho[2,1-b]furan
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=232-95-1
+##$NIST MASS SPEC NO=6428
+##MOLFORM=C12 H8 O
+##MW=168
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=63
+##LASTX=169
+##FIRSTY=500
+##MAXX=169
+##MINX=63
+##MAXY=9999
+##MINY=500
+##NPOINTS=5
+##PEAK TABLE=(XY..XY)
+63,500 139,1501 141,500 168,9999
+169,1001
+##END=

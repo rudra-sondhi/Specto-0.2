@@ -1,0 +1,28 @@
+##TITLE=Thiirane, ethenyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=5954-75-6
+##$NIST MASS SPEC NO=617
+##MOLFORM=C4 H6 S
+##MW=86
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=86
+##FIRSTY=1270
+##MAXX=86
+##MINX=26
+##MAXY=9999
+##MINY=1111
+##NPOINTS=12
+##PEAK TABLE=(XY..XY)
+26,1270 27,3888 39,5872 44,1270
+45,6666 50,1555 51,1587 53,3254
+54,2222 84,1111 85,9999 86,6666
+##END=

@@ -1,0 +1,31 @@
+##TITLE=[1,1'-Biphenyl]-4-carbonitrile, 4'-(pentyloxy)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=P.A. Leclercq, Lab. Instrum. Anal., Eindhoven Univ. Technol., Netherlands
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=52364-71-3
+##$NIST MASS SPEC NO=141816
+##MOLFORM=C18 H19 N O
+##MW=265
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=266
+##FIRSTY=549
+##MAXX=266
+##MINX=27
+##MAXY=9999
+##MINY=159
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+27,549 29,1029 39,489 41,919
+43,2129 55,439 71,319 139,339
+140,739 151,389 166,739 177,159
+178,209 195,9999 196,1509 265,849
+266,179
+##END=

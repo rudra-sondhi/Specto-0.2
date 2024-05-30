@@ -1,0 +1,31 @@
+##TITLE=Ethylene, 1,1-bis(trimethylsilyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Institute of Organic Chemistry, Novosibirsk, USSR 1988
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=5654-07-9
+##$NIST MASS SPEC NO=109960
+##MOLFORM=C8 H20 Si2
+##MW=172
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=45
+##LASTX=174
+##FIRSTY=579
+##MAXX=174
+##MINX=45
+##MAXY=9999
+##MINY=79
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+45,579 58,319 59,509 73,9999
+74,789 75,299 83,389 84,309
+98,269 99,1269 100,199 101,79
+157,3009 158,579 159,289 172,1629
+173,399 174,109
+##END=

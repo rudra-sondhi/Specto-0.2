@@ -1,0 +1,28 @@
+##TITLE=Benzene, 1,1'-methylenebis[4-isocyano-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=956-62-7
+##$NIST MASS SPEC NO=10192
+##MOLFORM=C15 H10 N2
+##MW=218
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=86
+##LASTX=220
+##FIRSTY=2002
+##MAXX=220
+##MINX=86
+##MAXY=9999
+##MINY=200
+##NPOINTS=10
+##PEAK TABLE=(XY..XY)
+86,2002 87,200 116,1601 117,200
+190,3503 191,400 217,1702 218,9999
+219,1702 220,200
+##END=
