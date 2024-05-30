@@ -6,39 +6,39 @@ The precussor to the Specto model, this repo is designed to collect the nessecar
 
 ## Code and Explanation
 
-1. 'Pre-Pre Process Data.py' -> Designed to accept "species.txt" as an input file and filter molecules with {'O', 'C', 'H', 'N', 'Br', 'Cl', 'S', 'Si'} as acceptable elements. 
+1. **'Pre-Pre Process Data.py'** -> Designed to accept "species.txt" as an input file and filter molecules with {'O', 'C', 'H', 'N', 'Br', 'Cl', 'S', 'Si'} as acceptable elements. 
 
-- Input -> 'species.txt' 
-- Output -> 'filtered_molecules.csv'
+- **Input** -> 'species.txt' 
+- **Output** -> 'filtered_molecules.csv'
 
-2. 'Scrap SMILES, SELFIES, TAUT.py' -> Process the molecules, by determining their SMILES, SELFIES, Tautomer, and functional groups. The output is a ".yaml" file and the example format is "output file 1". 
+2. **'Scrap SMILES, SELFIES, TAUT.py'** -> Process the molecules, by determining their SMILES, SELFIES, Tautomer, and functional groups. The output is a ".yaml" file and the example format is "output file 1". 
 
-- Input -> 'filtered_molecules.csv'
-- Output -> 'all_data_SMARTS_FINAL_2024.yaml' (Current)
+- **Input** -> 'filtered_molecules.csv'
+- **Output** -> 'all_data_SMARTS_FINAL_2024.yaml' (Current)
 
-3. 'Scrap IR and MS.py' -> Using the NIST API, scrape the '.JDX' files for Mass and IR spectum. The paths for the IR and Mass jdx files are saved in a secondary yaml file as "output file 2". 
+3. **'Scrap IR and MS.py'** -> Using the NIST API, scrape the '.JDX' files for Mass and IR spectum. The paths for the IR and Mass jdx files are saved in a secondary yaml file as "output file 2". 
 
-- Input -> 'all_data_SMARTS_FINAL_2024.yaml' (Current)
-- Outputs -> '.JDX' files for mass and IR + 'all_data_MS&IR_PATHS_2.yaml' (Current)
+- **Input** -> 'all_data_SMARTS_FINAL_2024.yaml' (Current)
+- **Output** -> '.JDX' files for mass and IR + 'all_data_MS&IR_PATHS_2.yaml' (Current)
 
-4. 'NMR Data Scrap.py' -> Using Selenium Webdriver, the 1H-NMR and 13C-NMR is scrapped through nmrdb. The splitting patterns are saved in a '.yaml' file as "output file 3" and the screenshots are saved.
+4. **'NMR Data Scrap.py'** -> Using Selenium Webdriver, the 1H-NMR and 13C-NMR is scrapped through nmrdb. The splitting patterns are saved in a '.yaml' file as "output file 3" and the screenshots are saved.
 
-- Input -> 'all_data_SMARTS_FINAL_2024.yaml' (Current)
-- Output -> 'nmr_results.yaml' + screenshots for 1H-NMR & 13C-NMR
+- **Input** -> 'all_data_SMARTS_FINAL_2024.yaml' (Current)
+- **Output** -> 'nmr_results.yaml' + screenshots for 1H-NMR & 13C-NMR
 
-5. 'Helper_Functions.py' -> Helper functions to read the jdx files and extract the data. 
+5. **'Helper_Functions.py'** -> Helper functions to read the jdx files and extract the data. 
 
-- Input -> .JDX file
-- Output -> JDX file data
+- **Input** -> .JDX file
+- **Output** -> JDX file data
 
-6. 'JDX_Mass_Spec.py' -> Given the JDX data from files, two mass spectra plots are created. One without axes and one with axes. 
+6. **'JDX_Mass_Spec.py'** -> Given the JDX data from files, two mass spectra plots are created. One without axes and one with axes. 
 
-- Input -> JDX file data
-- Output -> Mass spectra plot with axes + Mass spectra plot with no axes
+- **Input** -> JDX file data
+- **Output** -> Mass spectra plot with axes + Mass spectra plot with no axes
 
-7. 'Plots and Bins - Optim.py' -> Given JDX files, plots the IR and Mass spectrum plots (similar to 6). The plots are saved as 'png' with and without the axes. The IR data is binned and saved in a 'CSV' and the MS data is also saved as a 'CSV'. 
-- Input -> 'all_data_SMARTS_FINAL_2024.yaml' (Current)
-- Output -> Two images for MS and IR (with and without axes) + yaml file for the paths + "CSV" for data. 
+7. **'Plots and Bins - Optim.py'** -> Given JDX files, plots the IR and Mass spectrum plots (similar to 6). The plots are saved as 'png' with and without the axes. The IR data is binned and saved in a 'CSV' and the MS data is also saved as a 'CSV'. 
+- **Input** -> 'all_data_SMARTS_FINAL_2024.yaml' (Current)
+- **Output** -> Two images for MS and IR (with and without axes) + yaml file for the paths + "CSV" for data. 
 
 
 
