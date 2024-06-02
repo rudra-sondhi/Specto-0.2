@@ -3,6 +3,7 @@ import requests
 import argparse
 import logging
 import yaml
+import time
 
 def set_logger(model_dir, log_name):
     logger = logging.getLogger()
@@ -22,33 +23,41 @@ def set_logger(model_dir, log_name):
     return logger
 
 def scrap_data(cas_id, params, data_dir, save_iter, combined_data, nist_url="https://webbook.nist.gov/cgi/cbook.cgi"):
-    params['JCAMP'] = 'C' + cas_id
+    try:
+        params['JCAMP'] = 'C' + cas_id
 
-    spectra_type_path = os.path.join(data_dir, params['Type'].lower())
-    if not os.path.exists(spectra_type_path):
-        os.makedirs(spectra_type_path)
+        spectra_type_path = os.path.join(data_dir, params['Type'].lower())
+        if not os.path.exists(spectra_type_path):
+            os.makedirs(spectra_type_path)
 
-    response = requests.get(nist_url, params=params)
-    response_content = response.content
+        response = requests.get(nist_url, params=params)
+        response_content = response.content
 
-    if response.text == '##TITLE=Spectrum not found.\n##END=\n':
-        logging.info(f'Spectrum not found for CAS ID {cas_id} with params {params}')
+        if response.text == '##TITLE=Spectrum not found.\n##END=\n':
+            logging.info(f'Spectrum not found for CAS ID {cas_id} with params {params}')
+            return combined_data
+        elif response.text == '##TITLE=Rate limit exceeded.\n##END=\n':
+            logging.info(f'Rate limit exceeded.')
+            return combined_data
+
+        file_path = os.path.join(spectra_type_path, cas_id + '.jdx')
+        with open(file_path, 'wb') as data:
+            data.write(response_content)
+
+        if cas_id not in combined_data:
+            combined_data[cas_id] = {}
+
+        combined_data[cas_id][params['Type'].lower()] = {'Type': params['Type'].lower(), 'Path': file_path}
+        
+        if save_iter:
+            save_all_to_yaml(data_dir, combined_data, cas_id)
+
+        logging.info(f'Created {params["Type"].lower()} spectrum for CAS ID: {cas_id}')
         return combined_data
-
-    file_path = os.path.join(spectra_type_path, cas_id + '.jdx')
-    with open(file_path, 'wb') as data:
-        data.write(response_content)
-
-    if cas_id not in combined_data:
-        combined_data[cas_id] = {}
-
-    combined_data[cas_id][params['Type'].lower()] = {'Type': params['Type'].lower(), 'Path': file_path}
-    
-    if save_iter:
-        save_all_to_yaml(data_dir, combined_data, cas_id)
-
-    logging.info(f'Created {params["Type"].lower()} spectrum for CAS ID: {cas_id}')
-    return combined_data
+    except Exception as e:
+        logging.error('Timed out, sleeping for 20 seconds and retrying')
+        time.sleep(20)
+        return combined_data
 
 def save_all_to_yaml(data_dir, combined_data, cas_id):
     try:
@@ -127,7 +136,7 @@ def main():
     parser.add_argument('--scrap_IR', default=True, help="Whether to download IR or not")
     parser.add_argument('--scrap_MS', default=True, help="Whether to download MS or not")
     parser.add_argument('--scrap_InChi', default=False, help="Whether to download InChi or not")
-    parser.add_argument('--save_every_molecule', default=False, help="Whether the yaml saves at the end or after every mol.")
+    parser.add_argument('--save_every_molecule', default=True, help="Whether the yaml saves at the end or after every mol.")
     args = parser.parse_args()
 
     combined_data = {}
@@ -149,29 +158,37 @@ def main():
     else:
         start_index = 0
 
+
+
     for cas_id in cas_dict[start_index:]:
-        if args.scrap_MS:
-            params = {'Type': 'Mass'}
-            combined_data = scrap_data(cas_id, params, data_dir, args.save_every_molecule, combined_data)
-            if cas_id in combined_data:
-                counter += 1
-                logging.info(f'Mass added for CAS_ID: {cas_id}')
-            else:
-                logging.info(f'No Mass spectrum found for CAS ID: {cas_id}')
+        try:
+            if args.scrap_MS:
+                params = {'Type': 'Mass'}
+                combined_data = scrap_data(cas_id, params, data_dir, args.save_every_molecule, combined_data)
+                if cas_id in combined_data:
+                    counter += 1
+                    logging.info(f'Mass added for CAS_ID: {cas_id}')
+                else:
+                    logging.info(f'No Mass spectrum found for CAS ID: {cas_id}')
 
-        if args.scrap_IR:
-            params = {'Type': 'IR'}
-            combined_data = scrap_data(cas_id, params, data_dir, args.save_every_molecule, combined_data)
-            if cas_id in combined_data:
-                logging.info(f'IR added for CAS_ID: {cas_id}')
-            else:
-                logging.info(f'No IR spectrum found for CAS ID: {cas_id}')
+            if args.scrap_IR:
+                params = {'Type': 'IR'}
+                combined_data = scrap_data(cas_id, params, data_dir, args.save_every_molecule, combined_data)
+                if cas_id in combined_data:
+                    logging.info(f'IR added for CAS_ID: {cas_id}')
+                else:
+                    logging.info(f'No IR spectrum found for CAS ID: {cas_id}')
 
-        if counter % 1 == 0 and combined_data:
-            logging.info(f'Saving data for batch ending with CAS ID {cas_id}')
-            save_all_to_yaml(data_dir, combined_data, "batch_" + str(counter))
-            save_progress(data_dir, cas_id)
-            combined_data = {}
+            if counter % 150 == 0 and combined_data:
+                logging.info(f'Saving data for batch ending with CAS ID {cas_id}')
+                save_all_to_yaml(data_dir, combined_data, "batch_" + str(counter))
+                save_progress(data_dir, cas_id)
+                combined_data = {}
+                time.sleep(8)
+        except Exception as e:
+            logging.error(f'An error occurred while parsing the request: {e}')
+            time.sleep(10)
+            continue
 
     if combined_data:
         logging.info('Saving remaining data...')

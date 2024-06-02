@@ -12,6 +12,15 @@ from webdriver_manager.chrome import ChromeDriverManager
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# Suppress Selenium logs
+logging.getLogger('selenium').setLevel(logging.WARNING)
+logging.getLogger('urllib3').setLevel(logging.WARNING)
+logging.getLogger('websockets').setLevel(logging.WARNING)
+logging.getLogger('webdriver_manager').setLevel(logging.WARNING)
+
+os.environ['WDM_LOG_LEVEL'] = '0'
+
+
 def get_nmr_prediction(url, label, cas_id, smiles, output_folder):
     driver = None
     try:
@@ -65,7 +74,7 @@ def get_nmr_prediction(url, label, cas_id, smiles, output_folder):
         if driver:
             driver.quit()
             logging.info(f"Closed the browser for {cas_id} ({label})")
-            time.sleep(1)
+            time.sleep(0.5)
     
 
 def load_yaml(filename):
@@ -81,7 +90,8 @@ def save_yaml(data, filename):
         yaml.dump(data, file)
         logging.info(f"Saved data to YAML file {filename}")
 
-def main(yaml_file, results_file, progress_file, base_output_folder):
+def main(yaml_file, results_file, progress_file, base_output_folder, safety_file):
+
     data = load_yaml(yaml_file)
     last_scraped_cas = load_yaml(progress_file) if os.path.exists(progress_file) else None
     results = load_yaml(results_file) if os.path.exists(results_file) else {}
@@ -122,9 +132,14 @@ def main(yaml_file, results_file, progress_file, base_output_folder):
                 "NMR Results": molecule_results,
                 "Screenshots": screenshot_paths
             }
+
             save_yaml(results, results_file)
+            logging.info(f"DO NOT CLOSE YET.... saving to YAML file")
             save_yaml(cas_id, progress_file)
-            logging.info(f"Successfully scraped CAS ID: {cas_id}")
+            logging.info(f"DO NOT CLOSE YET...... saving to progress")
+
+            save_yaml(results, safety_file)
+            logging.info(f"Successfully scraped CAS ID: {cas_id}. You may close now.")
         else:
             logging.warning(f"Skipping CAS ID: {cas_id} due to errors or empty NMR data")
     logging.info("Finished")
@@ -134,8 +149,9 @@ def main(yaml_file, results_file, progress_file, base_output_folder):
 yaml_file = '/Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/All SMILES, SELFIES, Taut.yaml'  # Replace with the path to your YAML file
 results_file = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/NMR Data/nmr_results.yaml'
 progress_file = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/NMR Data/progress.yaml'
+safety_file = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/NMR Data/Safety.yaml'
 base_output_folder = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/Screenshots'  # Specify the base folder for saving screenshots
-main(yaml_file, results_file, progress_file, base_output_folder)
+main(yaml_file, results_file, progress_file, base_output_folder, safety_file)
 
 
 """

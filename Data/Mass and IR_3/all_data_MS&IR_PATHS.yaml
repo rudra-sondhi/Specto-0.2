@@ -492,3 +492,17 @@
   mass:
     Path: /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/mass/10008-73-8.jdx
     Type: mass
+1001-45-2:
+  ir:
+    Path: /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/ir/1001-45-2.jdx
+    Type: ir
+  mass:
+    Path: /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/mass/1001-45-2.jdx
+    Type: mass
+1001-53-2:
+  ir:
+    Path: /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/ir/1001-53-2.jdx
+    Type: ir
+  mass:
+    Path: /Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3/mass/1001-53-2.jdx
+    Type: mass
