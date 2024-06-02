@@ -134,7 +134,7 @@ def main():
     parser.add_argument('--save_dir', default='/Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/Mass and IR_3', help="Directory path to store scrapped data")
     parser.add_argument('--cas_list', default='/Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/All SMILES, SELFIES, Taut.yaml', help="File containing CAS number and formula of molecules")
     parser.add_argument('--scrap_IR', default=True, help="Whether to download IR or not")
-    parser.add_argument('--scrap_MS', default=True, help="Whether to download MS or not")
+    parser.add_argument('--scrap_MS', default=False, help="Whether to download MS or not")
     parser.add_argument('--scrap_InChi', default=False, help="Whether to download InChi or not")
     parser.add_argument('--save_every_molecule', default=True, help="Whether the yaml saves at the end or after every mol.")
     args = parser.parse_args()
@@ -157,8 +157,6 @@ def main():
         start_index = cas_dict.index(last_processed_cas_id) + 1
     else:
         start_index = 0
-
-
 
     for cas_id in cas_dict[start_index:]:
         try:
