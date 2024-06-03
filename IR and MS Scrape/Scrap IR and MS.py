@@ -37,8 +37,10 @@ def scrap_data(cas_id, params, data_dir, save_iter, combined_data, nist_url="htt
             logging.info(f'Spectrum not found for CAS ID {cas_id} with params {params}')
             return combined_data
         elif response.text == '##TITLE=Rate limit exceeded.\n##END=\n':
-            logging.info(f'Rate limit exceeded.')
-            return combined_data
+            logging.info(f'Rate limit exceeded for CAS ID {cas_id}, retrying in 30 seconds')
+            time.sleep(30)
+            return scrap_data(cas_id, params, data_dir, save_iter, combined_data, nist_url)
+
 
         file_path = os.path.join(spectra_type_path, cas_id + '.jdx')
         with open(file_path, 'wb') as data:
@@ -174,6 +176,7 @@ def main():
                 combined_data = scrap_data(cas_id, params, data_dir, args.save_every_molecule, combined_data)
                 if cas_id in combined_data:
                     logging.info(f'IR added for CAS_ID: {cas_id}')
+                    time.sleep(1)
                 else:
                     logging.info(f'No IR spectrum found for CAS ID: {cas_id}')
 
