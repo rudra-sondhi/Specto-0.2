@@ -1,0 +1,31 @@
+##TITLE=4-Pentene-2-ol, 2-methyl
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=NIST Mass Spectrometry Data Center, 1990.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=624-97-5
+##$NIST MASS SPEC NO=113679
+##MOLFORM=C6 H12 O
+##MW=100
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=14
+##LASTX=85
+##FIRSTY=229
+##MAXX=85
+##MINX=14
+##MAXY=9999
+##MINY=184
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+14,229 15,509 27,651 28,815
+29,523 31,1916 32,276 38,304
+39,1985 40,386 41,2034 43,5299
+44,216 53,203 55,585 59,9999
+60,348 67,430 83,184 85,565
+##END=

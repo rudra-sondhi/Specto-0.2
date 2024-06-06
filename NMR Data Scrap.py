@@ -39,7 +39,7 @@ def get_nmr_prediction(url, label, cas_id, smiles, output_folder):
         agree_button.click()
 
         # Wait for potential dynamic content loading
-        time.sleep(5)
+        time.sleep(6)
 
         # Locate the NMR data by the 'contenteditable' attribute within the 'ci-module-content' class
         nmr_results_container = driver.find_element(By.CSS_SELECTOR, '.ci-module-content [contenteditable="true"]')
@@ -50,7 +50,7 @@ def get_nmr_prediction(url, label, cas_id, smiles, output_folder):
             return None, None
 
         # Click the "Show fullscreen" button on the bottom right
-        WebDriverWait(driver, 7).until(
+        WebDriverWait(driver, 6).until(
             EC.element_to_be_clickable((By.XPATH, "//li[@title='Show fullscreen']"))
         )
         full_screen_button = driver.find_element(By.XPATH, "//li[@title='Show fullscreen']")
@@ -74,7 +74,7 @@ def get_nmr_prediction(url, label, cas_id, smiles, output_folder):
         if driver:
             driver.quit()
             logging.info(f"Closed the browser for {cas_id} ({label})")
-            time.sleep(0.5)
+            time.sleep(1)
     
 
 def load_yaml(filename):
@@ -146,11 +146,11 @@ def main(yaml_file, results_file, progress_file, base_output_folder, safety_file
 
 
 # Example usage
-yaml_file = '/Users/rudrasondhi/Desktop/Specto 0.2/Specto-0.2/Data/All SMILES, SELFIES, Taut.yaml'  # Replace with the path to your YAML file
-results_file = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/NMR Data/nmr_results.yaml'
-progress_file = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/NMR Data/progress.yaml'
-safety_file = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/NMR Data/Safety.yaml'
-base_output_folder = '/Users/rudrasondhi/Desktop/Specto/Specto/Data/IR_Spectra/Screenshots'  # Specify the base folder for saving screenshots
+yaml_file = '/Users/rudrasondhi/Desktop/Specto-0.2/Specto-0.2/Data/Preprocess Data/All SMILES, SELFIES, Taut.yaml'  # Replace with the path to your YAML file
+results_file = '/Users/rudrasondhi/Desktop/Specto-0.2/Specto-0.2/Data/NMR Data/nmr_results.yaml'
+progress_file = '/Users/rudrasondhi/Desktop/Specto-0.2/Specto-0.2/Data/NMR Data/progress.yaml'
+safety_file = '/Users/rudrasondhi/Desktop/Specto-0.2/Specto-0.2/Data/NMR Data/Safety.yaml'
+base_output_folder = '/Users/rudrasondhi/Desktop/Specto-0.2/Specto-0.2/Data/NMR Data/Screenshots'  # Specify the base folder for saving screenshots
 main(yaml_file, results_file, progress_file, base_output_folder, safety_file)
 
 

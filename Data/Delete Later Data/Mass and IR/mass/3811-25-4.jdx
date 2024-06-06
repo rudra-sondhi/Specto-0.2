@@ -1,0 +1,30 @@
+##TITLE=Benzenemethanol, 2-chloro-.alpha.-[[(1-methylethyl)amino]methyl]-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=R.E.Ardrey ET AL.Pharmaceutical Mass Spectra,L.,1985
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=3811-25-4
+##$NIST MASS SPEC NO=298621
+##MOLFORM=C11 H16 Cl N O
+##MW=213
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=180
+##FIRSTY=300
+##MAXX=180
+##MINX=27
+##MAXY=9999
+##MINY=100
+##NPOINTS=13
+##PEAK TABLE=(XY..XY)
+27,300 30,7707 39,100 41,300
+42,100 43,701 44,100 51,300
+56,200 72,9999 73,400 77,601
+180,200
+##END=

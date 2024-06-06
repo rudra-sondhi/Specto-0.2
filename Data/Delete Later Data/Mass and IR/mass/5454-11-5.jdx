@@ -1,0 +1,32 @@
+##TITLE=Heptanoic acid, 2-phenylethyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=W.Jennings, T.Shibamoto
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=5454-11-5
+##$NIST MASS SPEC NO=285485
+##MOLFORM=C15 H22 O2
+##MW=234
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=114
+##FIRSTY=70
+##MAXX=114
+##MINX=29
+##MAXY=9999
+##MINY=70
+##NPOINTS=22
+##PEAK TABLE=(XY..XY)
+29,70 41,280 43,5295 44,70
+55,190 57,681 64,70 69,70
+77,70 78,280 79,190 85,991
+91,390 92,70 95,70 102,70
+103,280 104,9999 105,4194 106,280
+113,1491 114,70
+##END=

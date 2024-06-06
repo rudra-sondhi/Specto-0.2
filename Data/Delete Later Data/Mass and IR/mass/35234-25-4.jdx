@@ -1,0 +1,30 @@
+##TITLE=Octanoic acid, 5-(acetyloxy)-, ethyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=35234-25-4
+##$NIST MASS SPEC NO=32183
+##MOLFORM=C12 H22 O4
+##MW=230
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=43
+##LASTX=170
+##FIRSTY=9999
+##MAXX=170
+##MINX=43
+##MAXY=9999
+##MINY=199
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+43,9999 55,1135 71,737 81,438
+82,398 88,1852 95,418 98,2111
+111,717 112,418 123,359 141,458
+143,1135 145,1832 158,319 159,199
+170,279
+##END=

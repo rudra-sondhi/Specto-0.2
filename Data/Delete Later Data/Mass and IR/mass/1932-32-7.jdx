@@ -1,0 +1,30 @@
+##TITLE=N-(4-Nitrophenyl)-N'-phenyl-urea
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1932-32-7
+##$NIST MASS SPEC NO=144992
+##MOLFORM=C13 H11 N3 O3
+##MW=257
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=63
+##LASTX=257
+##FIRSTY=1991
+##MAXX=257
+##MINX=63
+##MAXY=9999
+##MINY=300
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+63,1991 64,3533 65,3002 66,2482
+77,1010 91,5524 92,2502 93,9999
+109,990 119,9518 120,990 134,1191
+138,2001 164,1501 257,300
+##END=

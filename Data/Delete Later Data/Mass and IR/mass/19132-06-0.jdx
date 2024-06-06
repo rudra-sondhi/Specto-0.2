@@ -1,0 +1,33 @@
+##TITLE=2,3-Butanediol, [S-(R*,R*)]-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Chuck Anderson, Aldrich Chemical Co.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=19132-06-0
+##$NIST MASS SPEC NO=108423
+##MOLFORM=C4 H10 O2
+##MW=90
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=15
+##LASTX=90
+##FIRSTY=139
+##MAXX=90
+##MINX=15
+##MAXY=9999
+##MINY=12
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+15,139 19,272 26,66 27,633
+28,393 29,1021 30,41 31,206
+38,12 39,84 41,121 42,154
+43,1293 44,446 45,9999 46,270
+47,561 55,167 56,28 57,756
+71,33 72,58 73,37 75,198
+90,29
+##END=

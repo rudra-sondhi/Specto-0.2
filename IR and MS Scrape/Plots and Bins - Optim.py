@@ -224,14 +224,16 @@ def process_files(config_path, save_dir, save_dir_nist, progress_file, yaml_file
                             logging.warning(f"Failed to process arrays due to incompatible units. CAS_ID: {cas_id}")
                     elif ir_or_ms in [CONFIG["mass_spectrum"], CONFIG["mass"], 'mass'] and file_type in [CONFIG["mass_spectrum"], CONFIG["mass"], 'mass']:
                         logging.info(f"Data type for {cas_id} is mass spectrum.")
-                        npoints, title = extract_npoints_and_title(mol_dict)
+
+                        """npoints, title = extract_npoints_and_title(mol_dict)
                         xy_pairs = extract_xy_pairs(mol_dict)
                         if xy_pairs is None or len(xy_pairs) != npoints:
                             continue
                         axes_mass_path = plot_xy_pairs(xy_pairs, title, cas_id, save_directory_mass_axes)
                         no_axes_mass_path = plot_xy_pairs_no_axes(xy_pairs, cas_id, save_directory_mass_no_axes)
                         mass_csv_path = save_xy_pairs_to_csv_mass(xy_pairs, mass_csv_save_directory, cas_id)
-                        update_yaml_file(mass_yaml_file_path, cas_id, axes_plot=axes_mass_path, no_axes_plot=no_axes_mass_path, csv_path=mass_csv_path)
+                        update_yaml_file(mass_yaml_file_path, cas_id, axes_plot=axes_mass_path, no_axes_plot=no_axes_mass_path, csv_path=mass_csv_path)"""
+                        continue
                     else:
                         logging.warning(f"Data type mismatch: Expected {file_type}, got {ir_or_ms}. CAS_ID: {cas_id}")
                 else:

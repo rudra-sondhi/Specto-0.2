@@ -1,0 +1,29 @@
+##TITLE=2-Furancarbothioic acid, S-methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=13679-61-3
+##$NIST MASS SPEC NO=3947
+##MOLFORM=C6 H6 O2 S
+##MW=142
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=144
+##FIRSTY=70
+##MAXX=144
+##MINX=29
+##MAXY=9999
+##MINY=70
+##NPOINTS=16
+##PEAK TABLE=(XY..XY)
+29,70 37,150 38,410 39,1591
+45,410 47,220 52,70 53,70
+54,70 67,330 81,70 95,9999
+96,480 142,2622 143,200 144,130
+##END=

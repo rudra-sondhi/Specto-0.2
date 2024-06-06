@@ -1,0 +1,31 @@
+##TITLE=Cyclopropylacetylene
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=6746-94-7
+##$NIST MASS SPEC NO=283801
+##MOLFORM=C5 H6
+##MW=66
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=40
+##LASTX=68
+##FIRSTY=591
+##MAXX=68
+##MINX=40
+##MAXY=9999
+##MINY=20
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+40,591 41,50 48,120 49,681
+50,1952 51,1812 52,270 53,30
+60,220 61,811 62,1161 63,1822
+64,420 65,6916 66,9999 67,761
+68,20
+##END=

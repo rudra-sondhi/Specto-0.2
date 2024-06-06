@@ -1,0 +1,30 @@
+##TITLE=1H-Tetrazole
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=NIST Mass Spectrometry Data Center, 1998.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=288-94-8
+##$NIST MASS SPEC NO=291693
+##MOLFORM=C H2 N4
+##MW=70
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=12
+##LASTX=71
+##FIRSTY=90
+##MAXX=71
+##MINX=12
+##MAXY=9999
+##MINY=20
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+12,90 13,300 14,330 15,100
+21,30 26,240 27,700 28,1260
+29,1290 40,170 41,1410 42,9999
+43,620 70,400 71,20
+##END=

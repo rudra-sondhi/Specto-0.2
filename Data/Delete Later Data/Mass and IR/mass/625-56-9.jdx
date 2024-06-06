@@ -1,0 +1,28 @@
+##TITLE=Methanol, chloro-, acetate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=625-56-9
+##$NIST MASS SPEC NO=143346
+##MOLFORM=C3 H5 Cl O2
+##MW=108
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=42
+##LASTX=73
+##FIRSTY=1381
+##MAXX=73
+##MINX=42
+##MAXY=9999
+##MINY=330
+##NPOINTS=7
+##PEAK TABLE=(XY..XY)
+42,1381 43,9999 44,1651 49,2792
+51,1000 65,330 73,1131
+##END=
